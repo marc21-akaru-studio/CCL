@@ -1,0 +1,473 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF8" http-equiv="content-type">
+<title>RDA簡要 (Update : 2021/02/22)</title>
+<style>
+body {font-family: Consolas, "Noto Mono", "KaiGen Gothic HW TW", "Microsoft YaHei Regular", monospace;}
+</style>
+<style>
+.table1 {
+	border: 5px #FFE1C8 solid;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-collapse:collapse;
+	background-color:#FFE1C8;
+	}
+.table1 tr:hover
+	{background-color:#FFC387;}
+.tableh1
+	{font-size:1.4em;
+	font-weight:bold;}
+.tableh2
+	{font-size:1.3em;
+	font-weight:bold;}
+.tableh3
+	{font-size:1.2em;
+	font-weight:normal;
+	min-width:7%;
+	max-width:40%;}
+.tabletxt
+	{font-size:1em;
+	font-weight: normal;
+	max-width:33%;}
+.title1
+	{margin-left: 0em;
+	font-size:1.6em;
+	font-weight:bold;}
+.title2
+	{margin-left: 2em;
+	font-size:1.4em;
+	font-weight:bold;}
+.title3
+	{margin-left: 4em;
+	font-size:1.3em;
+	font-weight:bold;}
+.title4
+	{margin-left: 6em;
+	font-size:1.2em;
+	font-weight:normal;}
+.article
+	{margin-left: 10em;
+	font-size:1em;
+	font-weight: normal;
+	line-height:1.5em;
+	}
+.changelog
+	{margin-left:14em;
+	font-size:0.8em;
+	font-weight: normal;
+	color: #FF0000;}
+.paragraph_other
+	{line-height:1.2em;
+	morgin-top:0px;
+	morgin-bottom:0px;}
+.tableAA
+	{text-align:center;
+	position:fixed;
+	top:20px;
+	right:20px;
+	width:120px;
+	border:0px solid #EFE;
+	border-cellspacing:collpase;
+	background-color:#FFE1C8;
+	border-radius:10px;
+	}
+.tableAA tr:hover
+	{background-color:#FFC387;}
+}
+  </style>
+</head>
+<body>
+
+<div class="paragraph_other">
+<table class="tableAA">
+	<tr>
+	<th style="background-color:#FFC387;color:black;">快速前往</th>
+	</tr>
+	<tr>
+	<td><a href="#cuttA" style="text-decoration:none;color:black;">中文圖書</a></td>
+	</tr>
+	<tr>
+	<td><a href="#cuttB" style="text-decoration:none;color:black;">西文圖書</a></td>
+	</tr>
+	<tr>
+	<td><a href="#cuttC" style="text-decoration:none;color:black;">視聽資料</a></td>
+	</tr>
+	<tr>
+	<td><a href="#cuttF" style="text-decoration:none;color:black;">電子資源</a></td>
+	</tr>
+	<tr>
+	<td><a href="#cuttE" style="text-decoration:none;color:black;">權威人名/團體</a></td>
+	</tr>
+	<tr>
+	<td><a href="#cuttD" style="text-decoration:none;color:black;">RDA 336-338</a></td>
+	</tr>
+</table>
+
+<p class="title4">
+<a name="cuttA">&nbsp;</a>中文圖書常用RDA內容<br>
+</p>
+<p class="article">
+※以下黑星[★]及白星[☆]均為必填，但☆為視情形擇一填寫；小三角[∆]是一定要空半形空格※<br>
+<img style="height:1em;" src="image\white.gif">00000nam&nbsp;a2200000&nbsp;i&nbsp;450&nbsp;<font color="green">[000段又稱為LEADER段，視情況修改]</font><br>
+<img style="height:1em;" src="image\b_star.gif">008&nbsp;140311s2014&nbsp;&nbsp;&nbsp;&nbsp;ch&nbsp;a&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;000&nbsp;0&nbsp;chi&nbsp;d<font color="green">[008段又稱為定長段，視情況修改]</font><br>
+<img style="height:1em;" src="image\white.gif">017&nbsp;#8&nbsp;|a<font color="red">GPN</font>|2rocgpt<font color="green">[政府出版品編號]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">ISBN</font>|q(<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[只有單冊時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">ISBN</font>|q(<font color="red">冊次</font>∆;∆|q<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[有多集數時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|q(<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[無ISBN且只有單冊時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|q(<font color="red">冊次</font>∆;∆|q<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[無ISBN且有多集數時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">024&nbsp;3#&nbsp;|a<font color="red">EAN</font>|q(<font color="red">冊次</font>)&nbsp;<font color="green">[無ISBN，只有EAN時]</font><br>
+<img style="height:1em;" src="image\b_star.gif">040&nbsp;&nbsp;&nbsp;&nbsp;|aTWTCL|bchi|cTWTCL|eccr<br>
+<img style="height:1em;" src="image\b_star.gif">041&nbsp;0#&nbsp;|a<font color="red">chi</font>|h<font color="red">翻譯作品原文</font>&nbsp;<font color="green">[非翻譯作品不需h；兩種以上語文對照需加546段]</font><br>
+<img style="height:1em;" src="image\b_star.gif">084&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">中文圖書分類號</font>|b<font color="red">書號</font>|2ncsclt<br>
+<img style="height:1em;" src="image\white.gif">095&nbsp;&nbsp;&nbsp;&nbsp;|aNTCL|b<font color="red">館藏地</font>|c<font color="red">登錄號(條碼號)</font>|d<font color="red">分類號</font>|e<font color="red">作者號</font>|l<font color="red">卷冊次號</font>|m<font color="red">價格</font>|n<font color="red">館員備註(採購批次)</font>|s本體|tCCL|z<font color="red">徵集來源</font>|p<font color="red">資料類型</font>|8<font color="red">連結分欄(條碼號)</font>&nbsp;<font color="green">[館藏欄位-僅適用於書目檔轉入]</font><br>
+<img style="height:1em;" src="image\white.gif">096&nbsp;&nbsp;&nbsp;&nbsp;|8<font color="red">連結分欄(條碼號)</font>|a<font color="red">館藏流通類別</font>|xFive strokes&nbsp;<font color="green">[館藏欄位-僅適用於書目檔轉入]</font><br>
+<img style="height:1em;" src="image\w_star.gif">100&nbsp;1&nbsp;&nbsp;|a<font color="red">個人著者主要款目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\w_star.gif">110&nbsp;0&nbsp;&nbsp;|a<font color="red">團體著者主要款目或轄區名稱</font>|b<font color="red">從屬單位</font>|4<font color="red">職責代碼</font>&nbsp;<font color="green">[本段和100段不能同時記載]</font><br>
+<img style="height:1em;" src="image\w_star.gif">130&nbsp;0&nbsp;&nbsp;|a<font color="red">劃一題名</font>.∆|l<font color="red">圖書語文</font>&nbsp;<font color="green">[無作者時使用]</font><br>
+<img style="height:1em;" src="image\white.gif">240&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">劃一題名或原文題名</font>.∆|l<font color="red">圖書語文</font>&nbsp;<font color="green">[有作者時使用，可放置翻譯作品之原題名]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[題名及副題名都是中文時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>∆=∆<font color="red">英文題名</font>∆:∆<font color="red">英文副題名</font>∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[題名及副題名都是中文，又同時有英文題名時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆=∆|b<font color="red">英文題名</font>∆:∆<font color="red">英文副題名</font>/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[只有正題名及英文題名時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>.∆|n<font color="red">編次</font>∆:∆|b<font color="red">副題名</font>.∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[只有編次時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>.∆|n<font color="red">編次</font>,∆|p<font color="red">編次名稱</font>∆:∆|b<font color="red">副題名</font>∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[同時有編次及編次名稱時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">246&nbsp;&nbsp;&nbsp;&nbsp;|i<font color="red">顯示文字</font>∆:∆|a<font color="red">正題名以外之其他不同題名-正題名</font>|b<font color="red">副題名</font><br>
+<img style="height:1em;" src="image\b_star.gif">250&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">版本敘述</font>|b<font color="red">[其他敘述]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#1&nbsp;|a<font color="red">出版地</font>∆:∆|b<font color="red">出版者</font>,∆|c<font color="red">出版年.月</font>&nbsp;<font color="green">[未註明出版月份時，可只著錄西元年]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#2&nbsp;|a<font color="red">經銷地</font>∆:∆|b<font color="red">經銷者</font>&nbsp;<font color="green">[著錄經銷者]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#3&nbsp;|a<font color="red">製造地</font>∆:∆|b<font color="red">製造者</font>&nbsp;<font color="green">[著錄製造或印刷廠]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#4&nbsp;|a<font color="red">©版權年</font>&nbsp;<font color="green">[版權年和出版年不同時才需要著錄]</font><br>
+<img style="height:1em;" src="image\b_star.gif">300&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">***</font>面∆:∆|b<font color="red">圖</font>,∆<font color="red">部份彩圖</font>,∆<font color="red">像</font>,∆<font color="red">表</font>∆;∆|c<font color="red">**</font>公分∆+∆|e<font color="red">附件</font>&nbsp;<font color="green">[1片CD-ROM…等]</font><br>
+<img style="height:1em;" src="image\b_star.gif">336&nbsp;##&nbsp;|a<font color="red">文字</font>|b<font color="red">txt</font>|2<font color="red">rdacontent</font><br>
+<img style="height:1em;" src="image\b_star.gif">337&nbsp;##&nbsp;|a<font color="red">無媒介</font>|b<font color="red">n</font>|2<font color="red">rdamedia</font><br>
+<img style="height:1em;" src="image\b_star.gif">338&nbsp;##&nbsp;|a<font color="red">成冊</font>|b<font color="red">nc</font>|2<font color="red">rdacarrier</font><br>
+<img style="height:1em;" src="image\white.gif">490&nbsp;1&nbsp;&nbsp;|a<font color="red">集叢題名</font>∆;∆|v<font color="red">集叢號</font><br>
+<img style="height:1em;" src="image\white.gif">500&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">一般附註</font>&nbsp;<font color="green">[著者號取自譯者、著者本名〇〇〇、版權頁題名&nbsp;:&nbsp;〇〇〇、含附錄]</font><br>
+<img style="height:1em;" src="image\white.gif">504&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">書目註</font>&nbsp;<font color="green">[含參考書目&nbsp;:&nbsp;面000-000、參考書目散見全書、含索引]</font><br>
+<img style="height:1em;" src="image\white.gif">505&nbsp;00&nbsp;|g<font color="red">1</font>,∆|t<font color="red">題名</font>∆--∆|g<font color="red">2</font>,∆|t<font color="red">題名</font></font>&nbsp;<font color="green">[一筆書目內多個作品註於此，需於740做追尋項]</font><br>
+<img style="height:1em;" src="image\white.gif">521&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">適用對象註</font>&nbsp;<font color="green">[大學用書、3-6歲適用、國小高年級跨國中、限制級]</font><br>
+<img style="height:1em;" src="image\white.gif">546&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">語文註</font>&nbsp;<font color="green">[中英對照、國語注音、簡體字本、漢語拼音、部份內容中日對照]</font><br>
+<img style="height:1em;" src="image\white.gif">586&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">得獎註</font>&nbsp;<font color="green">[若為入圍者不須著錄]</font><br>
+<img style="height:1em;" src="image\white.gif">600&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">傳記個人姓名標目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font></font><br>
+<img style="height:1em;" src="image\white.gif">610&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">團體名稱標目或轄區名稱</font><br>
+<img style="height:1em;" src="image\white.gif">630&nbsp;#7&nbsp;|a<font color="red">標題附加款目-劃一題名</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">650&nbsp;#7&nbsp;|a<font color="red">主題用語</font>&nbsp;<font color="green">[關鍵字、標籤]</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">651&nbsp;#7&nbsp;|a<font color="red">標題附加款目-地理名稱</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">700&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">個人著者附加款目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\white.gif">710&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">團體著者附加款目或轄區名稱</font>|b<font color="red">從屬單位</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\white.gif">740&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">附加款目-相關作品之題名</font>&nbsp;<font color="green">[追尋505項，每一項一行]</font><br>
+<img style="height:1em;" src="image\white.gif">830&nbsp;#0&nbsp;|a<font color="red">集叢附加款目-劃一題名</font>.∆|n<font color="red">集叢編次</font>,∆|p<font color="red">集叢編次名稱</font><br>
+</p>
+<hr size="3px" align="center" width="80%">
+<p class="title4">
+<a name="cuttB">&nbsp;</a>西文圖書常用RDA內容<br>
+</p>
+<p class="article">
+※以下黑星[★]及白星[☆]均為必填，但☆為視情形擇一填寫；小三角[∆]是一定要空半形空格※<br>
+<img style="height:1em;" src="image\white.gif">00000nam&nbsp;a2200000&nbsp;i&nbsp;450&nbsp;<font color="green">[000段又稱為LEADER段，視情況修改]</font><br>
+<img style="height:1em;" src="image\b_star.gif">008&nbsp;140311s2014&nbsp;&nbsp;&nbsp;&nbsp;ch&nbsp;a&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;000&nbsp;0&nbsp;chi&nbsp;d<font color="green">[008段又稱為定長段，視情況修改]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">ISBN</font>|q(<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[只有單冊時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">ISBN</font>|q(<font color="red">冊次</font>∆;∆|q<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[有多集數時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|q(<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[無ISBN且只有單冊時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|q(<font color="red">冊次</font>∆;∆|q<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[無ISBN且有多集數時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">024&nbsp;3#&nbsp;|a<font color="red">EAN</font>|q(<font color="red">裝訂方式</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[無ISBN，只有EAN時]</font><br>
+<img style="height:1em;" src="image\b_star.gif">040&nbsp;&nbsp;&nbsp;&nbsp;|aTWTCL|beng|cTWTCL|eaacr<br>
+<img style="height:1em;" src="image\b_star.gif">041&nbsp;0#&nbsp;|a<font color="red">圖書語文</font>|h<font color="red">翻譯作品原文</font>&nbsp;<font color="green">[非翻譯作品不需h；兩種以上語文對照需加546段]</font><br>
+<img style="height:1em;" src="image\b_star.gif">082&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">杜威十進分類號</font>|b<font color="red">克特號</font>|222<br>
+<img style="height:1em;" src="image\white.gif">095&nbsp;&nbsp;&nbsp;&nbsp;|aNTCL|b<font color="red">館藏地</font>|c<font color="red">登錄號(條碼號)</font>|d<font color="red">分類號</font>|e<font color="red">作者號</font>|l<font color="red">卷冊次號</font>|m<font color="red">價格</font>|n<font color="red">館員備註(採購批次)</font>|s本體|tDDC|z<font color="red">徵集來源</font>|p<font color="red">資料類型</font>|8<font color="red">連結分欄(條碼號)</font>&nbsp;<font color="green">[館藏欄位-僅適用於書目檔轉入]</font><br>
+<img style="height:1em;" src="image\white.gif">096&nbsp;&nbsp;&nbsp;&nbsp;|8<font color="red">連結分欄(條碼號)</font>|a<font color="red">館藏流通類別</font>|xCutter&nbsp;<font color="green">[館藏欄位-僅適用於書目檔轉入]</font><br>
+<img style="height:1em;" src="image\w_star.gif">100&nbsp;1&nbsp;&nbsp;|a<font color="red">姓,∆名</font>|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\w_star.gif">110&nbsp;0&nbsp;&nbsp;|a<font color="red">團體著者主要款目或轄區名稱</font>|b<font color="red">從屬單位</font>|4<font color="red">職責代碼</font>&nbsp;<font color="green">[本段和100段不能同時記載]</font><br>
+<img style="height:1em;" src="image\w_star.gif">130&nbsp;0&nbsp;&nbsp;|a<font color="red">劃一題名</font>.∆|l<font color="red">圖書語文</font>&nbsp;<font color="green">[無作者時使用]</font><br>
+<img style="height:1em;" src="image\white.gif">240&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">劃一題名或原文題名</font>.∆|l<font color="red">圖書語文</font>&nbsp;<font color="green">[有作者時使用，可放置翻譯作品之原題名]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[題名及副題名都是中文時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>.∆|n<font color="red">編次</font>∆:∆|b<font color="red">副題名</font>.∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[只有編次時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>.∆|n<font color="red">編次</font>,∆|p<font color="red">編次名稱</font>∆:∆|b<font color="red">副題名</font>∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[同時有編次及編次名稱時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">246&nbsp;&nbsp;&nbsp;&nbsp;|i<font color="red">顯示文字</font>∆:∆|a<font color="red">正題名以外之其他不同題名-正題名</font>|b<font color="red">副題名</font><br>
+<img style="height:1em;" src="image\b_star.gif">250&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">版本敘述</font>|b<font color="red">[其他敘述]</font>&nbsp;<font color="green">[版次一律用數字著錄，如1st∆ed.、2nd∆ed.、3rd∆ed.、4th∆ed.…99th∆ed.]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#1&nbsp;|a<font color="red">出版地</font>∆:∆|b<font color="red">出版者</font>,∆|c<font color="red">出版年.月</font>&nbsp;<font color="green">[未註明出版月份時，可只著錄西元年]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#2&nbsp;|a<font color="red">經銷地</font>∆:∆|b<font color="red">經銷者</font>&nbsp;<font color="green">[著錄經銷者]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#3&nbsp;|a<font color="red">製造地</font>∆:∆|b<font color="red">製造者</font>&nbsp;<font color="green">[著錄製造或印刷廠]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#4&nbsp;|a<font color="red">©版權年</font>&nbsp;<font color="green">[版權年和出版年不同時才需要著錄]</font><br>
+<img style="height:1em;" src="image\b_star.gif">300&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">***p.</font>∆:∆|b<font color="red">illustrations</font>,∆<font color="red">portraits</font>,∆<font color="red">forms</font>∆;∆|c<font color="red">**cm</font>.∆+∆|e<font color="red">附件</font>&nbsp;<font color="green">[1∆CD、1∆DVD、2∆CD-ROM][1∆pamphlet(手冊)]</font><br>
+<img style="height:1em;" src="image\b_star.gif">336&nbsp;##&nbsp;|a<font color="red">text</font>|b<font color="red">txt</font>|2<font color="red">rdacontent</font><br>
+<img style="height:1em;" src="image\b_star.gif">337&nbsp;##&nbsp;|a<font color="red">unmediated</font>|b<font color="red">n</font>|2<font color="red">rdamedia</font><br>
+<img style="height:1em;" src="image\b_star.gif">338&nbsp;##&nbsp;|a<font color="red">volume</font>|b<font color="red">nc</font>|2<font color="red">rdacarrier</font><br>
+<img style="height:1em;" src="image\white.gif">490&nbsp;1&nbsp;&nbsp;|a<font color="red">集叢題名</font>∆;∆|v<font color="red">集叢號</font><br>
+<img style="height:1em;" src="image\white.gif">500&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">一般附註</font>&nbsp;<font color="green">[著者號取自譯者、著者本名〇〇〇][Includes∆index.(含索引)]</font><br>
+<img style="height:1em;" src="image\white.gif">504&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">書目註</font>&nbsp;<font color="green">[Includes∆bibliographical∆references(p.∆310-325).]</font><br>
+<img style="height:1em;" src="image\white.gif">505&nbsp;00&nbsp;|a<font color="red">1,∆題名∆--∆2,∆題名</font>&nbsp;<font color="green">[一筆書目內多個作品註於此，需於740做追尋項]</font><br>
+<img style="height:1em;" src="image\white.gif">521&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">適用對象註</font>&nbsp;<font color="green">[3-6(適用3-6歲)][Restricted∆:∆under∆18∆not∆allowed.(限制級)]</font><br>
+<img style="height:1em;" src="image\white.gif">546&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">語文註</font>&nbsp;<font color="green">[Text∆in∆English∆and∆French.(英法對照)][In∆Indonesian.(印尼文)]</font><br>
+<img style="height:1em;" src="image\white.gif">586&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">得獎獎項,∆年度</font>&nbsp;<font color="green">[若為入圍者或商業排行榜不須著錄]</font><br>
+<img style="height:1em;" src="image\white.gif">600&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">傳記個人姓名標目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font><br>
+<img style="height:1em;" src="image\white.gif">610&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">團體名稱標目或轄區名稱</font><br>
+<img style="height:1em;" src="image\white.gif">630&nbsp;#7&nbsp;|a<font color="red">標題附加款目-劃一題名</font><br>
+<img style="height:1em;" src="image\white.gif">650&nbsp;#7&nbsp;|a<font color="red">主題用語[關鍵字、標籤]</font>|x<font color="red">一般複分</font>|z<font color="red">地理複分</font>|y<font color="red">年代複分</font>|v<font color="red">形式複分</font><br>
+<img style="height:1em;" src="image\white.gif">651&nbsp;#7&nbsp;|a<font color="red">標題附加款目-地理名稱</font>|x<font color="red">一般複分</font>|z<font color="red">地理複分</font>|y<font color="red">年代複分</font>|v<font color="red">形式複分</font><br>
+<img style="height:1em;" src="image\white.gif">700&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">姓,∆名</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\white.gif">710&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">團體著者附加款目或轄區名稱</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\white.gif">730&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">附加款目-劃一題名</font>|p<font color="red">編次名稱</font><br>
+<img style="height:1em;" src="image\white.gif">740&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">附加款目-相關作品之題名</font>&nbsp;<font color="green">[追尋505項，每一項一行]</font><br>
+<img style="height:1em;" src="image\white.gif">830&nbsp;#0&nbsp;|a<font color="red">集叢附加款目-劃一題名</font>.∆|n<font color="red">集叢編次</font>,∆|p<font color="red">集叢編次名稱</font>
+</p>
+<hr size="3px" align="center" width="80%">
+<p class="title4">
+<a name="cuttC">&nbsp;</a>視聽資料常用RDA內容<br>
+</p>
+<p class="article">
+視聽資料常用MARC21內容<br>
+※以下黑星[★]</font>及白星[☆]</font>均為必填，但☆為視情形擇一填寫；小三角[∆]</font>是一定要空半形空格※<br>
+<img style="height:1em;" src="image\white.gif">00000ngm&nbsp;a2200000&nbsp;i&nbsp;450<font color="green"> [000段又稱為LEADER段，視情況修改]</font><br>
+<img style="height:1em;" src="image\b_star.gif">007&nbsp;vd&nbsp;cvaizq<br>
+<img style="height:1em;" src="image\b_star.gif">008&nbsp;251205s2025&nbsp;&nbsp;&nbsp;&nbsp;ch&nbsp;000&nbsp;e&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vlchi&nbsp;d<font color="green"> [007-008段視情況修改]</font><br>
+<img style="height:1em;" src="image\white.gif">017&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">GPN</font>|2rocgpt<font color="green"> [政府出版品編號]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|cNT$<font color="red">價格</font><font color="green"> [只有單集時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|q(<font color="red">卷次</font>)∆:∆|cNT$<font color="red">價格</font><font color="green"> [有多集數時]</font><br>
+<img style="height:1em;" src="image\white.gif">024 3&nbsp;&nbsp;|a<font color="red">產品條碼</font><font color="green"> [47開頭的13碼條碼號]</font><br>
+<img style="height:1em;" src="image\white.gif">028&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">出版者編號</font>|b<font color="red">編號來源</font><font color="green"> [可填非條碼號的廠商編號，如P1FFE2015等]</font><br>
+<img style="height:1em;" src="image\b_star.gif">040&nbsp;&nbsp;&nbsp;&nbsp;|aTWTCL|bchi|cTWTCL|eccr<br>
+<img style="height:1em;" src="image\b_star.gif">041&nbsp;0&nbsp;&nbsp;|a<font color="red">發音語言</font>|a<font color="red">發音語言</font>|j<font color="red">字幕語言</font>|j<font color="red">字幕語言</font><font color="green">[發音或字幕有多重語言時可重複]</font><br>
+<img style="height:1em;" src="image\w_star.gif">084&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">中文圖書分類號</font>|b<font color="red">五筆檢字作者號</font>|2ncsclt<br>
+<img style="height:1em;" src="image\white.gif">095&nbsp;&nbsp;&nbsp;&nbsp;|aNTCL|b<font color="red">館藏地</font>|c<font color="red">登錄號(條碼號)</font>|d<font color="red">分類號</font>|e<font color="red">作者號</font>|l<font color="red">卷冊次號</font>|m<font color="red">價格</font>|n<font color="red">館員備註(採購批次)</font>|s本體|tCCL|z<font color="red">徵集來源</font>|p<font color="red">資料類型</font>|8<font color="red">連結分欄(條碼號)</font>&nbsp;<font color="green">[館藏欄位-僅適用於書目檔轉入]</font><br>
+<img style="height:1em;" src="image\white.gif">096&nbsp;&nbsp;&nbsp;&nbsp;|8<font color="red">連結分欄(條碼號)</font>|a<font color="red">館藏流通類別</font>|xFive strokes&nbsp;<font color="green">[館藏欄位-僅適用於書目檔轉入]</font><br>
+<img style="height:1em;" src="image\w_star.gif">100&nbsp;1&nbsp;&nbsp;|a<font color="red">個人著者主要款目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\w_star.gif">110&nbsp;0&nbsp;&nbsp;|a<font color="red">團體著者主要款目或轄區名稱</font>|b<font color="red">從屬單位</font>|4<font color="red">職責代碼</font><font color="green"> [本段和100段不能同時記載]</font><br>
+<img style="height:1em;" src="image\w_star.gif">130&nbsp;0&nbsp;&nbsp;|a<font color="red">劃一題名</font>.∆|l視聽主語文</font><font color="green"> [無作者時使用]</font><br>
+<img style="height:1em;" src="image\white.gif">240&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">劃一題名或原文題名</font>.∆|l視聽主語文</font><font color="green"> [有作者時使用，可放置翻譯作品之原題名]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>∆/∆|c<font color="red">著者敘述</font><font color="green"> [題名及副題名都是中文時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>∆=∆<font color="red">英文題名</font>∆:∆<font color="red">英文副題名</font>∆/∆|c<font color="red">著者敘述</font><font color="green"> [題名及副題名都是中文，又同時有英文題名時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆=∆|b<font color="red">英文題名</font>∆:∆<font color="red">英文副題名</font>/∆|c<font color="red">著者敘述</font></font><font color="green"> [只有正題名及英文題名時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>.∆|n<font color="red">編次</font>.∆/∆|c<font color="red">著者敘述</font><font color="green"> [只有編次時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>.∆|n<font color="red">編次</font>,∆|p<font color="red">編次名稱</font>∆/∆|c<font color="red">著者敘述</font><font color="green"> [同時有編次及編次名稱時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">246&nbsp;&nbsp;&nbsp;&nbsp;|i<font color="red">顯示文字</font>∆:∆|a<font color="red">正題名以外之其他不同題名-正題名</font>|b<font color="red">副題名</font><br>
+<img style="height:1em;" src="image\b_star.gif">250&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">家用版或公播版</font><br>
+<img style="height:1em;" src="image\b_star.gif">264&nbsp;#1&nbsp;|a<font color="red">出版地</font>∆:∆|b<font color="red">出版者</font>,∆|c<font color="red">出版年</font><font color="green"> [不再著錄總經銷或發行者時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#2&nbsp;|a<font color="red">經銷地</font>∆:∆|b<font color="red">經銷者</font><font color="green"> [總經銷、發行者]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#3&nbsp;|a<font color="red">製造地</font>∆:∆|b<font color="red">製造者</font><font color="green"> [製造者、壓片]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#4&nbsp;|cⓅ<font color="red">版權年</font>[版權年和出版年不同時才要著錄]</font><br>
+<img style="height:1em;" src="image\b_star.gif">300&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">1張數位影音光碟</font>(約<font color="red">000</font>分)∆:∆|b<font color="red">有聲,∆彩色</font>∆;∆|c<font color="red">4∆3/4吋</font>∆+∆|e<font color="red">附件</font><font color="green"> [DVD=數位影音光碟；VCD=影音光碟；CD=錄音光碟；BD=藍光影音光碟]</font><br>
+<img style="height:1em;" src="image\b_star.gif">336&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">平面動態影像</font>|b<font color="red">tdi</font>|2rdacontent<font color="green"> [SB=話語/spw；CD=演奏音樂/prm]</font><br>
+<img style="height:1em;" src="image\b_star.gif">337&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">錄影媒體</font>|b<font color="red">v</font>|2rdamedia<font color="green"> [SB/CD=錄音媒體/a]</font><br>
+<img style="height:1em;" src="image\b_star.gif">338&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">影碟</font>|b<font color="red">vd</font>|2rdacarrier<font color="green"> [SB/CD=音碟/sd]</font><br>
+<img style="height:1em;" src="image\white.gif">490&nbsp;1&nbsp;&nbsp;|a<font color="red">集叢題名</font>∆=∆|a<font color="red">集叢其他題名</font>∆;∆|v<font color="red">集叢號</font><br>
+<img style="height:1em;" src="image\white.gif">500&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">一般附註</font><font color="green"> [著者號取自譯者、著者本名〇〇〇、含附錄]</font><br>
+<img style="height:1em;" src="image\white.gif">505&nbsp;00&nbsp;|g<font color="red">1</font>,∆|t<font color="red">題名</font>∆--∆|g<font color="red">2</font>,∆|t<font color="red">題名</font><font color="green"> [一筆書目內多個內容標註於此，需於740做追尋項]</font><br>
+<img style="height:1em;" src="image\white.gif">508&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">製作群註</font><font color="green"> [幕前旁白可錄於此]</font><br>
+<img style="height:1em;" src="image\white.gif">511&nbsp;1&nbsp;&nbsp;|a<font color="red">主演∆:∆</font><font color="green"> [演出者註，幕後旁白可錄於此]</font><br>
+<img style="height:1em;" src="image\white.gif">520&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">影片介紹</font><br>
+<img style="height:1em;" src="image\white.gif">521&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">適用對象註</font><font color="green"> [普遍級/保護級/輔導級/輔導12級/輔導15級/限制級]</font><br>
+<img style="height:1em;" src="image\white.gif">538&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">媒體形式註</font><font color="green"> [DVD/VCD/CD/SB/LP/Blu-ray disc 須使用藍光播放器]</font><br>
+<img style="height:1em;" src="image\white.gif">546&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">語文註</font><font color="green"> [國語發音, 英語及繁中文字幕]</font><br>
+<img style="height:1em;" src="image\white.gif">586&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">得獎註</font><font color="green"> [若為入圍者不須著錄]</font><br>
+<img style="height:1em;" src="image\white.gif">594&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">批次號</font><br>
+<img style="height:1em;" src="image\white.gif">600&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">傳記個人姓名標目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font><br>
+<img style="height:1em;" src="image\white.gif">610&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">團體名稱標目或轄區名稱</font>|b<font color="red">從屬單位</font><br>
+<img style="height:1em;" src="image\white.gif">630&nbsp;#7&nbsp;|a<font color="red">標題附加款目-劃一題名</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">650&nbsp;#7&nbsp;|a<font color="red">主題用語</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">651&nbsp;#7&nbsp;|a<font color="red">標題附加款目-地理名稱</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">700&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">個人著者附加款目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\white.gif">710&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">團體著者附加款目或轄區名稱</font>|b<font color="red">從屬單位</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\white.gif">740&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">附加款目-相關作品之題名</font><font color="green"> [追尋505項，每一項一行]</font><br>
+<img style="height:1em;" src="image\white.gif">830&nbsp;#0&nbsp;|a<font color="red">集叢附加款目-劃一題名</font>∆=∆<font color="red">集叢其他題名</font>.∆|n<font color="red">集叢編次</font>,∆|p<font color="red">集叢編次名稱</font><br>
+</p>
+
+<hr size="3px" align="center" width="80%">
+
+<p class="title4">
+<a name="cuttF">&nbsp;</a>電子資源常用RDA內容<br>
+</p>
+<p class="article">
+※以下黑星[★]及白星[☆]均為必填，但☆為視情形擇一填寫；小三角[∆]是一定要空半形空格※<br>
+<img style="height:1em;" src="image\white.gif">00000nma&nbsp;a2200000&nbsp;i&nbsp;450&nbsp;<font color="green">[000段又稱為LEADER段，視情況修改]</font><br>
+<img style="height:1em;" src="image\b_star.gif">006&nbsp;m&nbsp;&nbsp;&nbsp;&nbsp;gq&nbsp;&nbsp;d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<img style="height:1em;" src="image\b_star.gif">007&nbsp;cr&nbsp;cn||||uuaua<br>
+<img style="height:1em;" src="image\b_star.gif">008&nbsp;140311s2014&nbsp;&nbsp;&nbsp;&nbsp;ch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;g&nbsp;&nbsp;&nbsp;d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chi&nbsp;d<font color="green">[006-008段又稱為定長段，視情況修改]</font><br>
+<img style="height:1em;" src="image\white.gif">017&nbsp;#8&nbsp;|a<font color="red">GPN</font>|2rocgpt<font color="green">[政府出版品編號]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">ISBN</font>|q(<font color="red">電子資源</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[只有單冊時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">ISBN</font>|q(<font color="red">冊次</font>∆;∆|q<font color="red">電子資源</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[有多集數時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|q(<font color="red">電子資源</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[無ISBN且只有單冊時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">020&nbsp;&nbsp;&nbsp;&nbsp;|q(<font color="red">冊次</font>∆;∆|q<font color="red">電子資源</font>)∆:∆|cNT$<font color="red">價格</font>&nbsp;<font color="green">[無ISBN且有多集數時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">024&nbsp;3#&nbsp;|a<font color="red">EAN</font>|q(<font color="red">冊次</font>)&nbsp;<font color="green">[無ISBN，只有EAN時]</font><br>
+<img style="height:1em;" src="image\b_star.gif">040&nbsp;&nbsp;&nbsp;&nbsp;|aTWTCL|bchi|cTWTCL|eccr<br>
+<img style="height:1em;" src="image\b_star.gif">041&nbsp;0#&nbsp;|a<font color="red">chi</font>|h<font color="red">翻譯作品原文</font>&nbsp;<font color="green">[非翻譯作品不需h；兩種以上語文對照需加546段]</font><br>
+<img style="height:1em;" src="image\b_star.gif">084&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">中文圖書分類號</font>|b<font color="red">書號</font>|2ncsclt<br>
+<img style="height:1em;" src="image\w_star.gif">100&nbsp;1&nbsp;&nbsp;|a<font color="red">個人著者主要款目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\w_star.gif">110&nbsp;0&nbsp;&nbsp;|a<font color="red">團體著者主要款目或轄區名稱</font>|b<font color="red">從屬單位</font>|4<font color="red">職責代碼</font>&nbsp;<font color="green">[本段和100段不能同時記載]</font><br>
+<img style="height:1em;" src="image\w_star.gif">130&nbsp;0&nbsp;&nbsp;|a<font color="red">劃一題名</font>.∆|l<font color="red">圖書語文</font>&nbsp;<font color="green">[無作者時使用]</font><br>
+<img style="height:1em;" src="image\white.gif">240&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">劃一題名或原文題名</font>.∆|l<font color="red">圖書語文</font>&nbsp;<font color="green">[有作者時使用，可放置翻譯作品之原題名]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[題名及副題名都是中文時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆:∆|b<font color="red">副題名</font>∆=∆<font color="red">英文題名</font>∆:∆<font color="red">英文副題名</font>∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[題名及副題名都是中文，又同時有英文題名時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>∆=∆|b<font color="red">英文題名</font>∆:∆<font color="red">英文副題名</font>/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[只有正題名及英文題名時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>.∆|n<font color="red">編次</font>∆:∆|b<font color="red">副題名</font>.∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[只有編次時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">245&nbsp;10&nbsp;|a<font color="red">正題名</font>.∆|n<font color="red">編次</font>,∆|p<font color="red">編次名稱</font>∆:∆|b<font color="red">副題名</font>∆/∆|c<font color="red">著者敘述</font>&nbsp;<font color="green">[同時有編次及編次名稱時]</font><br>
+<img style="height:1em;" src="image\w_star.gif">246&nbsp;&nbsp;&nbsp;&nbsp;|i<font color="red">顯示文字</font>∆:∆|a<font color="red">正題名以外之其他不同題名-正題名</font>|b<font color="red">副題名</font><br>
+<img style="height:1em;" src="image\b_star.gif">250&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">版本敘述</font>∆:∆|a<font color="red">[其他敘述]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#1&nbsp;|a<font color="red">出版地</font>∆:∆|b<font color="red">出版者</font>,∆|c<font color="red">出版年.月</font>&nbsp;<font color="green">[未註明出版月份時，可只著錄西元年]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#2&nbsp;|a<font color="red">經銷地</font>∆:∆|b<font color="red">經銷者</font>&nbsp;<font color="green">[著錄經銷者]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#3&nbsp;|a<font color="red">製造地</font>∆:∆|b<font color="red">製造者</font>&nbsp;<font color="green">[著錄製造或印刷廠]</font><br>
+<img style="height:1em;" src="image\w_star.gif">264&nbsp;#4&nbsp;|a<font color="red">©版權年</font>&nbsp;<font color="green">[版權年和出版年不同時才需要著錄]</font><br>
+<img style="height:1em;" src="image\b_star.gif">300&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">1</font>種線上資源(<font color="red">1</font>冊)∆:∆|b<font color="red">圖</font>,∆<font color="red">部份彩圖</font>,∆<font color="red">像</font>,∆<font color="red">表</font><br>
+<img style="height:1em;" src="image\b_star.gif">336&nbsp;##&nbsp;|a<font color="red">文字</font>|b<font color="red">txt</font>|2<font color="red">rdacontent</font><br>
+<img style="height:1em;" src="image\b_star.gif">337&nbsp;##&nbsp;|a<font color="red">電腦</font>|b<font color="red">c</font>|2<font color="red">rdamedia</font><br>
+<img style="height:1em;" src="image\b_star.gif">338&nbsp;##&nbsp;|a<font color="red">線上資源</font>|b<font color="red">cr</font>|2<font color="red">rdacarrier</font><br>
+<img style="height:1em;" src="image\white.gif">490&nbsp;1&nbsp;&nbsp;|a<font color="red">集叢題名</font>∆;∆|v<font color="red">集叢號</font><br>
+<img style="height:1em;" src="image\white.gif">500&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">一般附註</font>&nbsp;<font color="green">[著者號取自譯者、著者本名〇〇〇、版權頁題名&nbsp;:&nbsp;〇〇〇、含附錄]</font><br>
+<img style="height:1em;" src="image\white.gif">504&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">書目註</font>&nbsp;<font color="green">[含參考書目&nbsp;:&nbsp;面000-000、參考書目散見全書、含索引]</font><br>
+<img style="height:1em;" src="image\white.gif">505&nbsp;00&nbsp;|g<font color="red">1</font>,∆|t<font color="red">題名</font>∆--∆|g<font color="red">2</font>,∆|t<font color="red">題名</font></font>&nbsp;<font color="green">[一筆書目內多個作品註於此，需於740做追尋項]</font><br>
+<img style="height:1em;" src="image\b_star.gif">516&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">電子書</font><br>
+<img style="height:1em;" src="image\white.gif">521&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">適用對象註</font>&nbsp;<font color="green">[大學用書、3-6歲適用、國小高年級跨國中、限制級]</font><br>
+<img style="height:1em;" src="image\b_star.gif">533&nbsp;&nbsp;&nbsp;&nbsp;|a電子版本製作.∆|b<font color="red">複製地</font>∆:∆|b<font color="red">複製機構</font><br>
+<img style="height:1em;" src="image\b_star.gif">538&nbsp;&nbsp;&nbsp;&nbsp;|a系統需求∆:∆<font color="red">平台名稱</font>∆;∆檢索型式∆:∆電子書服務平台∆;∆資料型式∆:∆文字<br>
+<img style="height:1em;" src="image\white.gif">546&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">語文註</font>&nbsp;<font color="green">[中英對照、國語注音、簡體字本、漢語拼音、部份內容中日對照]</font><br>
+<img style="height:1em;" src="image\white.gif">586&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">得獎註</font>&nbsp;<font color="green">[若為入圍者不須著錄]</font><br>
+<img style="height:1em;" src="image\white.gif">600&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">傳記個人姓名標目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font></font><br>
+<img style="height:1em;" src="image\white.gif">610&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">團體名稱標目或轄區名稱</font><br>
+<img style="height:1em;" src="image\white.gif">630&nbsp;#7&nbsp;|a<font color="red">標題附加款目-劃一題名</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">650&nbsp;#7&nbsp;|a<font color="red">主題用語</font>&nbsp;<font color="green">[關鍵字、標籤]</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">651&nbsp;#7&nbsp;|a<font color="red">標題附加款目-地理名稱</font>|2lcstt<br>
+<img style="height:1em;" src="image\white.gif">700&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">個人著者附加款目</font>|c(<font color="red">原名或頭銜等修飾語</font>)|q(<font color="red">名字縮寫之全稱</font>),∆|d<font color="red">生卒年</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\white.gif">710&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">團體著者附加款目或轄區名稱</font>|b<font color="red">從屬單位</font>|4<font color="red">職責代碼</font><br>
+<img style="height:1em;" src="image\b_star.gif">710&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">複製機構全名</font>&nbsp;<font color="green">[電子書務必加此索引點]</font><br>
+<img style="height:1em;" src="image\white.gif">740&nbsp;&nbsp;&nbsp;&nbsp;|a<font color="red">附加款目-相關作品之題名</font>&nbsp;<font color="green">[追尋505項，每一項一行]</font><br>
+<img style="height:1em;" src="image\white.gif">830&nbsp;#0&nbsp;|a<font color="red">集叢附加款目-劃一題名</font>.∆|n<font color="red">集叢編次</font>,∆|p<font color="red">集叢編次名稱</font><br>
+<img style="height:1em;" src="image\b_star.gif">856&nbsp;40&nbsp;|u<font color="red">電子資源URL</font>|z點擊此處查看電子書全文<br>
+</p>
+<hr size="3px" align="center" width="80%">
+<p class="title4">
+<a name="cuttE">&nbsp;</a>權威人名/團體範例<br>
+</p>
+<p class="article">
+★取最為人知的名字放100或110，其他名字放在400或410（400見100）<br>
+例：<br>
+100&nbsp;0&nbsp;&nbsp;|a瓊瑤,&nbsp;|d1938-<br>
+<font color="red">400</font>&nbsp;1&nbsp;&nbsp;|6543056|a陳喆,&nbsp;|d1938-<br>
+667&nbsp;&nbsp;&nbsp;&nbsp;|a瓊瑤(1938.4.20-),&nbsp;本名陳喆,&nbsp;籍貫湖南衡陽,&nbsp;生於四川成都,&nbsp;臺灣言情小說作家.&nbsp;編劇.&nbsp;影視製作人.&nbsp;華語歌曲作詞人.<br>
+<br>
+★500、510放跟100或110有關係，但同樣是正式標目的名字（500參見100）<br>
+例：作者同時用林良及子敏創作，且皆著稱<br>
+100&nbsp;1&nbsp;&nbsp;|a林良,&nbsp;|d1924-2019<br>
+<font color="red">500</font>&nbsp;0&nbsp;&nbsp;|6355702|a子敏, |d1924-2019<br>
+667&nbsp;&nbsp;&nbsp;&nbsp;|a林良(1924.10.10-2019.12.23),&nbsp;台灣著名兒童文學作家.&nbsp;生於福建省同安縣,&nbsp;筆名子敏.&nbsp;子安.&nbsp;路恆.&nbsp;克山等, 暱稱為小太陽.&nbsp;林爺爺.&nbsp;林良爺爺.<br>
+<br>
+100&nbsp;0&nbsp;&nbsp;|a子敏,&nbsp;|d1924-2019<br>
+<font color="red">500</font> 1  |6348685|a林良, |d1924-2019<br>
+667&nbsp;&nbsp;&nbsp;&nbsp;|a林良(1924.10.10-2019.12.23),&nbsp;台灣著名兒童文學作家.&nbsp;生於福建省同安縣,&nbsp;筆名子敏.&nbsp;子安.&nbsp;路恆.&nbsp;克山等, 暱稱為小太陽.&nbsp;林爺爺.&nbsp;林良爺爺.<br>
+<br>
+例：團體和個人<br>
+110&nbsp;2&nbsp;&nbsp;|a披頭四樂團(The Beatles)<br>
+<font color="red">500</font>&nbsp;1&nbsp;&nbsp;|6450106|a藍儂|c(Lennon,&nbsp;John),&nbsp;|d1940-1980<br>
+<font color="red">500</font>&nbsp;1&nbsp;&nbsp;|6756510|a麥卡尼|c(McCartney,&nbsp;Paul)<br>
+<font color="red">500</font>&nbsp;1&nbsp;&nbsp;|6634075|a哈里森|c(Harrison,&nbsp;George),&nbsp;|d1943-2001<br>
+<font color="red">500</font>&nbsp;1&nbsp;&nbsp;|6634076|a史達|c(Starr, Ringo)<br>
+<br>
+★700、710使用於連結到等同關係的100或110，例如不同語言的同一人<br>
+例：<br>
+100&nbsp;1&nbsp;&nbsp;|a羅琳|c(Rowling, J. K.), |d1965-<br>
+<font color="red">700</font>&nbsp;1&nbsp;&nbsp;|6374136|aRowling,&nbsp;J.&nbsp;K.,&nbsp;|d1965-<br>
+<font color="red">700</font>&nbsp;1&nbsp;&nbsp;|6720709|aโรว์ลิ่ง, เจ. เค.|c(Rowling,&nbsp;J.&nbsp;K.),&nbsp;|d1965-<br>
+<br>
+★團體作者作者號以重點字取<br>
+例：國立高雄餐旅大學請取「高餐大」8387，行政院農業委員會請取「農委會」8866，並著錄於667段。<br>
+110&nbsp;2&nbsp;&nbsp;|a行政院|b農業委員會<br>
+667&nbsp;&nbsp;&nbsp;&nbsp;|a作者號8866取自"農委會"<br>
+</p>
+<hr size="3px" align="center" width="80%">
+<p class="title4">
+<a name="cuttD">&nbsp;</a>RDA常見336-337段範例<br>
+</p>
+<p class="article">
+最新RDA規範：<a href="http://www.loc.gov/standards/valuelist/rdacontent.html">336段</a>、<a href="http://www.loc.gov/standards/valuelist/rdamedia.html">337段</a>、<a href="http://www.loc.gov/standards/valuelist/rdacarrier.html">338段</a>
+</p>
+<table class="table1">
+	<tr>
+	<th>資料類型</th>
+	<th>西文編目</th>
+	<th>中文編目</th>
+	</tr>
+	<tr>
+	<td>紙本圖書、期刊</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>圖書含DVD/VCD附件</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>336 ## |atwo-dimensional moving image|btdi|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>337 ## |avideo|bv|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier<br>338 ## |avideodisc|bvd|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>336 ## |a平面動態影像|btdi|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>337 ## |a錄影|bv|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier<br>338 ## |a影碟|bvd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>圖書含CD/MP3附件<br>(語言學習、演講)</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>336 ## |aspoken word|bspw|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>337 ## |aaudio|bs|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier<br>338 ## |aaudio disc|bsd|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>336 ## |a話語|bspw|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>337 ## |a錄音|bs|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier<br>338 ## |a唱片|bsd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>圖書含CD附件<br>(音樂、歌曲)</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>336 ## |aperformed music|bprm|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>337 ## |aaudio|bs|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier<br>338 ## |aaudio disc|bsd|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>336 ## |a演奏音樂|bprm|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>337 ## |a錄音|bs|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier<br>338 ## |a唱片|bsd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>圖書含CD-ROM<br>或CD、MP3混合光碟</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>336 ## |acomputer program|bcop|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>337 ## |acomputer|bc|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier<br>338 ## |acomputer disc|bcd|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>336 ## |a電腦程式|bcop|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>337 ## |a電腦|bc|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier<br>338 ## |a電腦碟片|bcd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>圖書含紙型<br>(單張)</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>336 ## |astill image|bsti|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>337 ## |aunmediated|bn|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier<br>338 ## |asheet|bnb|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>336 ## |a靜態影像|bprm|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>337 ## |a無媒介|bn|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier<br>338 ## |a單張|bnb|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>圖書含地圖<br>(單張)</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>336 ## |acartographic image|bcri|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>337 ## |aunmediated|bn|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier<br>338 ## |asheet|bnb|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>336 ## |a地圖影像|bcri|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>337 ## |a無媒介|bn|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier<br>338 ## |a單張|bnb|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>圖書含地圖<br>(手冊)</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>336 ## |acartographic image|bcri|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>337 ## |aunmediated|bn|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier<br>338 ## |avolume|bnc|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>336 ## |a地圖影像|bcri|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>337 ## |a無媒介|bn|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier<br>338 ## |a成冊|bnc|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>紙本樂譜<br>(成冊)</td>
+	<td>336 ## |anotated music|bntm|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier</td>
+	<td>336 ## |a記譜音樂|bntm|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>紙本地圖<br>(成冊)</td>
+	<td>336 ## |acartographic image|bcri|2rdacontent<br>337 ## |aunmediated|bn|2rdamedia<br>338 ## |avolume|bnc|2rdacarrier</td>
+	<td>336 ## |a地圖影像|bcri|2rdacontent<br>337 ## |a無媒介|bn|2rdamedia<br>338 ## |a成冊|bnc|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>錄影資料<br>DVD/VCD/BD</td>
+	<td>336 ## |atwo-dimensional|btdi|2rdacontent<br>337 ## |avideo|bv|2rdamedia<br>338 ## |avideodisc|bvd|2rdacarrier</td>
+	<td>336 ## |a平面動態影像|btdi|2rdacontent<br>337 ## |a錄影|bv|2rdamedia<br>338 ## |a影碟|bvd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>錄音演講資料<br>(如CD/黑膠)</td>
+	<td>336 ## |aspoken word|bspw|2rdacontent<br>337 ## |aaudio|bs|2rdamedia<br>338 ## |aaudio disc|bsd|2rdacarrier</td>
+	<td>336 ## |a話語|bspw|2rdacontent<br>337 ## |a錄音|bs|2rdamedia<br>338 ## |a音碟|bsd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>錄音音樂資料<br>(如CD/黑膠)</td>
+	<td>336 ## |aperformed music|bprm|2rdacontent<br>337 ## |aaudio|bs|2rdamedia<br>338 ## |aaudio disc|bsd|2rdacarrier</td>
+	<td>336 ## |a演奏音樂|bprm|2rdacontent<br>337 ## |a錄音|bs|2rdamedia<br>338 ## |a音碟|bsd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>電子資源</td>
+	<td>336 ## |acomputer program|bcop|2rdacontent<br>337 ## |acomputer|bc|2rdamedia<br>338 ## |acomputer disc|bcd|2rdacarrier</td>
+	<td>336 ## |a電腦程式|bcop|2rdacontent<br>337 ## |a電腦|bc|2rdamedia<br>338 ## |a電腦碟片|bcd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>文字資料載於光碟<br>(如會議記錄等)</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>337 ## |acomputer|bc|2rdamedia<br>338 ## |acomputer disc|bcd|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>337 ## |a電腦|bc|2rdamedia<br>338 ## |a電腦碟片|bcd|2rdacarrier</td>
+	</tr>
+	<tr>
+	<td>文字資料載於<br>遠端伺服器<br>(如ebook)</td>
+	<td>336 ## |atext|btxt|2rdacontent<br>337 ## |acomputer|bc|2rdamedia<br>338 ## |aonline resource|bcr|2rdacarrier</td>
+	<td>336 ## |a文字|btxt|2rdacontent<br>337 ## |a電腦|bc|2rdamedia<br>338 ## |a線上資源|bcr|2rdacarrier</td>
+	</tr>
+</table>
+</body>
+</html>

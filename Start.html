@@ -1,0 +1,1768 @@
+<html>
+<head>
+<title>中文圖書分類法2007年版 (Update: 2025.04.11)</title>
+<meta name="viewport" content="width=device-width">
+<style>
+body{
+background: #FAFFFA url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAMAAAC6sdbXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF3d3d////riJKgAAAAAJ0Uk5T/wDltzBKAAAAFUlEQVR42mJgBAEGGMmAxAYCgAADAAGGABmnk/7aAAAAAElFTkSuQmCC);
+font-size: 14px;
+font-family: Arial,"Microsoft JhengHei", sans-serif;
+}
+
+h2, p {
+text-align: center;
+color: #FAFFFA;
+}
+
+a {
+color: #2A679F;
+}
+
+/* You don't need the above styles, they are demo-specific ----------- */
+
+#menu, #menu ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#menu {
+width: 960px;
+margin: 5px auto;
+border: 1px solid #D7FFD7;
+background-color: #E1FFE1;
+background-image: -moz-linear-gradient(#C3FFC3, #E1FFE1);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#C3FFC3), to(#E1FFE1));
+background-image: -webkit-linear-gradient(#C3FFC3, #E1FFE1);
+background-image: -o-linear-gradient(#C3FFC3, #E1FFE1);
+background-image: -ms-linear-gradient(#C3FFC3, #E1FFE1);
+background-image: linear-gradient(#C3FFC3, #E1FFE1);
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+-moz-box-shadow: 0 1px 1px #A5FFA5, 0 1px 0 #AFFFAF inset;
+-webkit-box-shadow: 0 1px 1px #A5FFA5, 0 1px 0 #AFFFAF inset;
+box-shadow: 0 1px 1px #A5FFA5, 0 1px 0 #AFFFAF inset;
+}
+
+#menu:before,
+#menu:after {
+content: "";
+display: table;
+}
+
+#menu:after {
+clear: both;
+}
+
+#menu {
+zoom:1;
+}
+
+#menu li {
+float: left;
+border-right: 1px solid #D7FFD7;
+-moz-box-shadow: 1px 0 0 #C3FFC3;
+-webkit-box-shadow: 1px 0 0 #C3FFC3;
+box-shadow: 1px 0 0 #C3FFC3;
+position: relative;
+}
+
+#menu a {
+float: left;
+padding: 12px 30px;
+color: #000;
+text-transform: uppercase;
+font-size: 14px;
+font-family: Arial,"Microsoft JhengHei", sans-serif;
+text-decoration: none;
+}
+
+#menu li:hover > a {
+color: #E1FFE1;
+background-color: #46B400;
+}
+
+*html #menu li a:hover { /* IE6 only */
+color: #468246;
+}
+
+#menu ul {
+margin: 20px 0 0 0;
+_margin: 0; /*IE6 only*/
+opacity: 0;
+visibility: hidden;
+position: absolute;
+top: 38px;
+left: 0;
+z-index: 1;
+background: #C3FFC3;
+background: -moz-linear-gradient(#C3FFC3, #E1FFE1);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#C3FFC3), to(#E1FFE1));
+background: -webkit-linear-gradient(#C3FFC3, #E1FFE1);
+background: -o-linear-gradient(#C3FFC3, #E1FFE1);
+background: -ms-linear-gradient(#C3FFC3, #E1FFE1);
+background: linear-gradient(#C3FFC3, #E1FFE1);
+-moz-box-shadow: 0 -1px rgba(255,255,255,.3);
+-webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.3);
+box-shadow: 0 -1px 0 rgba(255,255,255,.3);
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+
+#menu li:hover > ul {
+opacity: 1;
+visibility: visible;
+margin: 0;
+}
+
+#menu ul ul {
+top: 0;
+left: 150px;
+margin: 0 0 0 20px;
+_margin: 0; /*IE6 only*/
+-moz-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+-webkit-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+box-shadow: -1px 0 0 rgba(255,255,255,.3);
+}
+
+#menu ul li {
+float: none;
+display: block;
+border: 0;
+_line-height: 0; /*IE6 only*/
+-moz-box-shadow: 0 1px 0 #E1FFE1, 0 2px 0 #AFFFAF;
+-webkit-box-shadow: 0 1px 0 #E1FFE1, 0 2px 0 #AFFFAF;
+box-shadow: 0 1px 0 #E1FFE1, 0 2px 0 #AFFFAF;
+}
+
+#menu ul li:last-child {
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+#menu ul a {
+padding: 10px;
+width: 220px;
+_height: 10px; /*IE6 only*/
+display: block;
+white-space: nowrap;
+float: none;
+text-transform: none;
+}
+
+#menu ul a:hover {
+background-color: #46B400;
+background-image: -moz-linear-gradient(#05EB7D, #46B400);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#05EB7D), to(#46B400));
+background-image: -webkit-linear-gradient(#05EB7D, #46B400);
+background-image: -o-linear-gradient(#05EB7D, #46B400);
+background-image: -ms-linear-gradient(#05EB7D, #46B400);
+background-image: linear-gradient(#05EB7D, #46B400);
+}
+
+#menu ul li:first-child > a {
+-moz-border-radius: 3px 3px 0 0;
+-webkit-border-radius: 3px 3px 0 0;
+border-radius: 3px 3px 0 0;
+}
+
+#menu ul li:first-child > a:after {
+content: '';
+position: absolute;
+left: 40px;
+top: -6px;
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-bottom: 6px solid #1E3C1E;
+}
+
+#menu ul ul li:first-child a:after {
+left: -6px;
+top: 50%;
+margin-top: -6px;
+border-left: 0;
+border-bottom: 6px solid transparent;
+border-top: 6px solid transparent;
+border-right: 6px solid #1E3C1E;
+}
+
+#menu ul li:first-child a:hover:after {
+background-color: #46B400;
+}
+
+#menu ul ul li:first-child a:hover:after {
+border-right-color: #46B400;
+border-bottom-color: transparent;
+}
+
+#menu ul li:last-child > a {
+-moz-border-radius: 0 0 3px 3px;
+-webkit-border-radius: 0 0 3px 3px;
+border-radius: 0 0 3px 3px;
+}
+
+/* Mobile */
+#menu-trigger {
+display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+/* nav-wrap */
+#menu-wrap {
+position: relative;
+}
+
+#menu-wrap * {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/* menu icon */
+#menu-trigger {
+display: block; /* show menu icon */
+height: 40px;
+line-height: 40px;
+cursor: pointer;
+padding: 0 0 0 35px;
+border: 1px solid #D7FFD7;
+color: #FAFFFA;
+font-weight: bold;
+font-family: Arial,"Microsoft JhengHei", sans-serif;
+background-color: #E1FFE1;
+background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAMAAADeWG8gAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjE2QjAxNjRDOUNEOTExRTE4RTNFRkI1RDQ2MUYxOTQ3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjE2QjAxNjREOUNEOTExRTE4RTNFRkI1RDQ2MUYxOTQ3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTZCMDE2NEE5Q0Q5MTFFMThFM0VGQjVENDYxRjE5NDciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MTZCMDE2NEI5Q0Q5MTFFMThFM0VGQjVENDYxRjE5NDciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz42AEtnAAAABlBMVEX///////9VfPVsAAAAAnRSTlP/AOW3MEoAAAAWSURBVHjaYmAgFzBiACKFho6NAAEGAD07AG1pn932AAAAAElFTkSuQmCC) no-repeat 10px center, -moz-linear-gradient(#C3FFC3, #E1FFE1);
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+-moz-box-shadow: 0 1px 1px #A5FFA5, 0 1px 0 #AFFFAF inset;
+-webkit-box-shadow: 0 1px 1px #A5FFA5, 0 1px 0 #AFFFAF inset;
+box-shadow: 0 1px 1px #A5FFA5, 0 1px 0 #AFFFAF inset;
+}
+
+/* main nav */
+#menu {
+margin: 0; padding: 10px;
+position: absolute;
+top: 40px;
+width: 100%;
+z-index: 1;
+background-color: #C3FFC3;
+display: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+#menu:after {
+content: '';
+position: absolute;
+left: 25px;
+top: -8px;
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+border-bottom: 8px solid #C3FFC3;
+}
+
+#menu ul {
+position: static;
+visibility: visible;
+opacity: 1;
+margin: 0;
+background: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+#menu ul ul {
+margin: 0 0 0 20px !important;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+#menu li {
+position: static;
+display: block;
+float: none;
+border: 0;
+margin: 5px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+#menu ul li{
+margin-left: 20px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+#menu a{
+display: block;
+float: none;
+padding: 0;
+color: #91FF91;
+}
+
+#menu a:hover{
+color: #FAFFFA;
+}
+
+#menu ul a{
+padding: 0;
+width: auto;
+}
+
+#menu ul a:hover{
+background: none;
+}
+
+#menu ul li:first-child a:after,
+#menu ul ul li:first-child a:after {
+border: 0;
+}
+
+}
+
+@media screen and (min-width: 600px) {
+#menu {
+display: block !important;
+}
+}
+
+/* iPad */
+.no-transition {
+-webkit-transition: none;
+-moz-transition: none;
+-ms-transition: none;
+-o-transition: none;
+transition: none;
+opacity: 1;
+visibility: visible;
+display: none;
+}
+
+#menu li:hover > .no-transition {
+display: block;
+}
+</style>
+</head>
+
+<body>
+<nav id="menu-wrap"> </nav>
+<ul id="menu">
+<li><a href="main.html#admain000" target="main_1">主表 0 總類</a>
+<ul>
+<li><a href="main.html#main000" target="main_1">000 特藏</a>
+<ul>
+<li><a href="main.html#main000" target="main_1">000 特藏</a></li>
+<li><a href="main.html#main001" target="main_1">001 善本</a></li>
+<li><a href="main.html#main002" target="main_1">002 稿本</a></li>
+<li><a href="main.html#main003" target="main_1">003 精鈔本；舊鈔本</a></li>
+<li><a href="main.html#main004" target="main_1">004 紀念文庫</a></li>
+<li><a href="main.html#main005" target="main_1">005 中山文庫</a></li>
+<li><a href="main.html#main006" target="main_1">006 指定文庫</a></li>
+<li><a href="main.html#main007" target="main_1">007 鄉土文庫</a></li>
+<li><a href="main.html#main008" target="main_1">008 學位論文；送審論文</a></li>
+<li><a href="main.html#main009" target="main_1">009 禁書</a></li>
+<li><a href="main.html#main010" target="main_1">010 目錄學、文獻學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main010" target="main_1">010 目錄學、文獻學</a>
+<ul>
+<li><a href="main.html#main010" target="main_1">010 目錄學總論</a></li>
+<li><a href="main.html#main011" target="main_1">011 圖書學</a></li>
+<li><a href="main.html#main012" target="main_1">012 總目錄</a></li>
+<li><a href="main.html#main013" target="main_1">013 國家書目</a></li>
+<li><a href="main.html#main014" target="main_1">014 特種書目</a></li>
+<li><a href="main.html#main015" target="main_1">015 其他特種目錄</a></li>
+<li><a href="main.html#main016" target="main_1">016 專科目錄</a></li>
+<li><a href="main.html#main017" target="main_1">017 個人目錄</a></li>
+<li><a href="main.html#main018" target="main_1">018 藏書目錄</a></li>
+<li><a href="main.html#main019" target="main_1">019 讀書法</a></li>
+</ul>
+</li>
+<li><a href="main.html#main020" target="main_1">020 圖書資訊學；檔案學</a>
+<ul>
+<li><a href="main.html#main020" target="main_1">020 圖書資訊學總論</a></li>
+<li><a href="main.html#main021" target="main_1">021 圖書館建築；圖書館設備</a></li>
+<li><a href="main.html#main022" target="main_1">022 圖書館管理</a></li>
+<li><a href="main.html#main023" target="main_1">023 圖書館業務</a></li>
+<li><a href="main.html#main024" target="main_1">024 各類圖書館；特殊圖書館</a></li>
+<li><a href="main.html#main025" target="main_1">025 專門圖書館</a></li>
+<li><a href="main.html#main026" target="main_1">026 普通圖書館；公共圖書館</a></li>
+<li><a href="main.html#main027" target="main_1">027 檔案學；檔案館</a></li>
+<li><a href="main.html#main028" target="main_1">028 資訊處理；資訊事業</a></li>
+<li><a href="main.html#main029" target="main_1">029 私家藏書</a></li>
+</ul>
+</li>
+<li><a href="main.html#main030" target="main_1">030 國學</a>
+<ul>
+<li><a href="main.html#main030" target="main_1">030 國學總論</a></li>
+<li><a href="main.html#main031" target="main_1">031 古籍源流</a></li>
+<li><a href="main.html#main032" target="main_1">032 古籍讀法及研究</a></li>
+<li><a href="main.html#main033" target="main_1">033-037 各國漢學研究</a></li>
+<li><a href="main.html#main038" target="main_1">038 漢學會議</a></li>
+<li><a href="main.html#main039" target="main_1">039 漢學家傳記</a></li>
+</ul>
+</li>
+<li><a href="main.html#main040" target="main_1">040 普通類書；普通百科全書</a>
+<ul>
+<li><a href="main.html#main040" target="main_1">040 類書總論；百科全書總論</a></li>
+<li><a href="main.html#main041" target="main_1">041 分類類書</a></li>
+<li><a href="main.html#main042" target="main_1">042 摘錦類書</a></li>
+<li><a href="main.html#main043" target="main_1">043 韻目類書</a></li>
+<li><a href="main.html#main044" target="main_1">044 歲時類書</a></li>
+<li><a href="main.html#main046" target="main_1">046 常識手冊</a></li>
+<li><a href="main.html#main047" target="main_1">047 青少年百科全書；兒童百科全書</a></li>
+<li><a href="main.html#main049" target="main_1">049 各國百科全書</a></li>
+</ul>
+</li>
+<li><a href="main.html#main050" target="main_1">050 連續性出版品 、期刊</a>
+<ul>
+<li><a href="main.html#main050" target="main_1">050 連續性出版品；普通期刊</a></li>
+<li><a href="main.html#main051" target="main_1">051 學術期刊</a></li>
+<li><a href="main.html#main052" target="main_1">052 調查研究報告</a></li>
+<li><a href="main.html#main053" target="main_1">053 機關雜誌</a></li>
+<li><a href="main.html#main054" target="main_1">054 娛樂雜誌</a></li>
+<li><a href="main.html#main055" target="main_1">055 婦女雜誌；家庭雜誌</a></li>
+<li><a href="main.html#main056" target="main_1">056 青少年雜誌；兒童雜誌</a></li>
+<li><a href="main.html#main057" target="main_1">057 普通畫報</a></li>
+<li><a href="main.html#main058" target="main_1">058 普通年鑑</a></li>
+<li><a href="main.html#main059" target="main_1">059 普通報紙</a></li>
+</ul>
+</li>
+<li><a href="main.html#main060" target="main_1">060 普通會社 、博物館學</a>
+<ul>
+<li><a href="main.html#main060" target="main_1">060 普通會社總論</a></li>
+<li><a href="main.html#main061" target="main_1">061 國際性普通會社</a></li>
+<li><a href="main.html#main062" target="main_1">062-067 各國普通會社</a></li>
+<li><a href="main.html#main068" target="main_1">068 基金會</a></li>
+<li><a href="main.html#main069" target="main_1">069 博物館學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main070" target="main_1">070 普通論叢</a>
+<ul>
+<li><a href="main.html#main070" target="main_1">070 普通論叢</a></li>
+<li><a href="main.html#main071" target="main_1">071 雜考</a></li>
+<li><a href="main.html#main072" target="main_1">072 雜說</a></li>
+<li><a href="main.html#main073" target="main_1">[073] 演講集</a></li>
+<li><a href="main.html#main074" target="main_1">074 雜品</a></li>
+<li><a href="main.html#main075" target="main_1">075 雜纂</a></li>
+<li><a href="main.html#main077" target="main_1">077 西學雜論</a></li>
+<li><a href="main.html#main078" target="main_1">078 現代論叢</a></li>
+<li><a href="main.html#main079" target="main_1">079 各國論叢</a></li>
+</ul>
+</li>
+<li><a href="main.html#main080" target="main_1">080 普通叢書</a>
+<ul>
+<li><a href="main.html#main080" target="main_1">080 普通叢書</a></li>
+<li><a href="main.html#main081" target="main_1">081 明以前叢書</a></li>
+<li><a href="main.html#main082" target="main_1">082 清代叢書；近代叢書</a></li>
+<li><a href="main.html#main083" target="main_1">083 民國叢書；現代叢書</a></li>
+<li><a href="main.html#main084" target="main_1">084 輯逸叢書</a></li>
+<li><a href="main.html#main085" target="main_1">085 各國叢書</a></li>
+<li><a href="main.html#main086" target="main_1">086 郡邑叢書</a></li>
+<li><a href="main.html#main087" target="main_1">087 翻譯叢書；西學叢書</a></li>
+<li><a href="main.html#main088" target="main_1">088 族姓叢書</a></li>
+<li><a href="main.html#main089" target="main_1">089 自著叢書</a></li>
+</ul>
+</li>
+<li><a href="main.html#main090" target="main_1">090 群經</a>
+<ul>
+<li><a href="main.html#main090" target="main_1">090 第一法：分散方式</a></li>
+<li><a href="main.html#main090" target="main_1">090 第二法：分散方式</a></li>
+<li><a href="main.html#main091" target="main_1">091 易經</a></li>
+<li><a href="main.html#main092" target="main_1">092 書經</a></li>
+<li><a href="main.html#main093" target="main_1">093 詩經</a></li>
+<li><a href="main.html#main094" target="main_1">094 禮</a></li>
+<li><a href="main.html#main095" target="main_1">095 春秋</a></li>
+<li><a href="main.html#main096" target="main_1">096 孝經</a></li>
+<li><a href="main.html#main097" target="main_1">097 四書</a></li>
+<li><a href="main.html#main098" target="main_1">098 群經總義</a></li>
+<li><a href="main.html#main099" target="main_1">099 小學及樂經</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain100" target="main_1">主表 1 哲學類</a>
+<ul>
+<li><a href="main.html#main100" target="main_1">100 哲學總論</a>
+<ul>
+<li><a href="main.html#main100" target="main_1">100 哲學總論</a></li>
+<li><a href="main.html#main101" target="main_1">101 哲學理論</a></li>
+<li><a href="main.html#main103" target="main_1">103 哲學教育及研究</a></li>
+<li><a href="main.html#main104" target="main_1">104 哲學辭典</a></li>
+<li><a href="main.html#main105" target="main_1">105 哲學期刊</a></li>
+<li><a href="main.html#main106" target="main_1">106 哲學團體</a></li>
+<li><a href="main.html#main107" target="main_1">107 哲學論文集</a></li>
+<li><a href="main.html#main108" target="main_1">108 哲學叢書</a></li>
+<li><a href="main.html#main109" target="main_1">109 哲學史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main110" target="main_1">110 思想、學術</a>
+<ul>
+<li><a href="main.html#main110" target="main_1">110 思想、學術概說</a></li>
+<li><a href="main.html#main112" target="main_1">112 中國思想、學術</a></li>
+<li><a href="main.html#main113" target="main_1">113 東方思想、學術</a></li>
+<li><a href="main.html#main114" target="main_1">114 西洋思想、學術</a></li>
+<li><a href="main.html#main118" target="main_1">118 知識的區分</a></li>
+<li><a href="main.html#main119" target="main_1">119 人文學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main120" target="main_1">120 中國哲學</a>
+<ul>
+<li><a href="main.html#main120" target="main_1">120 中國哲學總論</a></li>
+<li><a href="main.html#main121" target="main_1">121 先秦哲學</a></li>
+<li><a href="main.html#main122" target="main_1">122 漢代哲學</a></li>
+<li><a href="main.html#main123" target="main_1">123 魏晉六朝哲學</a></li>
+<li><a href="main.html#main124" target="main_1">124 唐代哲學</a></li>
+<li><a href="main.html#main125" target="main_1">125 宋元哲學</a></li>
+<li><a href="main.html#main126" target="main_1">126 明代哲學</a></li>
+<li><a href="main.html#main127" target="main_1">127 清代哲學</a></li>
+<li><a href="main.html#main128" target="main_1">128 現代哲學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main130" target="main_1">130 東方哲學</a>
+<ul>
+<li><a href="main.html#main130" target="main_1">130 東方哲學總論</a></li>
+<li><a href="main.html#main131" target="main_1">131 日本哲學</a></li>
+<li><a href="main.html#main132" target="main_1">132 韓國哲學</a></li>
+<li><a href="main.html#main133" target="main_1">133 猶太哲學</a></li>
+<li><a href="main.html#main134" target="main_1">134 阿拉伯哲學</a></li>
+<li><a href="main.html#main135" target="main_1">135 波斯哲學</a></li>
+<li><a href="main.html#main136" target="main_1">136 中東各國哲學</a></li>
+<li><a href="main.html#main137" target="main_1">137 印度哲學</a></li>
+<li><a href="main.html#main138" target="main_1">138 東南亞各國哲學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main140" target="main_1">140 西洋哲學</a>
+<ul>
+<li><a href="main.html#main140" target="main_1">140 西洋哲學總論</a></li>
+<li><a href="main.html#main141" target="main_1">141 古代哲學</a></li>
+<li><a href="main.html#main142" target="main_1">142 中世哲學</a></li>
+<li><a href="main.html#main143" target="main_1">143 近世哲學</a></li>
+<li><a href="main.html#main144" target="main_1">144 英國哲學</a></li>
+<li><a href="main.html#main145" target="main_1">145 美國哲學</a></li>
+<li><a href="main.html#main146" target="main_1">146 法國哲學</a></li>
+<li><a href="main.html#main147" target="main_1">147 德奧哲學</a></li>
+<li><a href="main.html#main148" target="main_1">148 義大利哲學</a></li>
+<li><a href="main.html#main149" target="main_1">149 其他西洋各國哲學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main150" target="main_1">150 邏輯學</a>
+<ul>
+<li><a href="main.html#main150" target="main_1">150 邏輯總論</a></li>
+<li><a href="main.html#main151" target="main_1">151 演繹邏輯</a></li>
+<li><a href="main.html#main152" target="main_1">152 歸納邏輯</a></li>
+<li><a href="main.html#main153" target="main_1">153 科學方法論</a></li>
+<li><a href="main.html#main154" target="main_1">154 辯證邏輯</a></li>
+<li><a href="main.html#main155" target="main_1">155 模態邏輯</a></li>
+<li><a href="main.html#main156" target="main_1">156 數理邏輯</a></li>
+<li><a href="main.html#main157" target="main_1">157 概率</a></li>
+<li><a href="main.html#main158" target="main_1">158 專業邏輯</a></li>
+<li><a href="main.html#main159" target="main_1">159 邏輯各論</a></li>
+</ul>
+</li>
+<li><a href="main.html#main160" target="main_1">160 形上學</a>
+<ul>
+<li><a href="main.html#main160" target="main_1">160 形上學總論</a></li>
+<li><a href="main.html#main161" target="main_1">161 知識論</a></li>
+<li><a href="main.html#main162" target="main_1">162 方法論</a></li>
+<li><a href="main.html#main163" target="main_1">163 宇宙論</a></li>
+<li><a href="main.html#main164" target="main_1">164 本體論</a></li>
+<li><a href="main.html#main165" target="main_1">165 價值論</a></li>
+<li><a href="main.html#main166" target="main_1">166 真理論</a></li>
+<li><a href="main.html#main168" target="main_1">168 宇宙論問題各論</a></li>
+<li><a href="main.html#main169" target="main_1">169 存有論問題各論</a></li>
+</ul>
+</li>
+<li><a href="main.html#main170" target="main_1">170 心理學</a>
+<ul>
+<li><a href="main.html#main170" target="main_1">170 心理學總論</a></li>
+<li><a href="main.html#main171" target="main_1">171 心理學研究方法</a></li>
+<li><a href="main.html#main172" target="main_1">172 生理心理學</a></li>
+<li><a href="main.html#main173" target="main_1">173 一般心理</a></li>
+<li><a href="main.html#main174" target="main_1">174 比較心理學</a></li>
+<li><a href="main.html#main175" target="main_1">175 離常心理學；超心理學</a></li>
+<li><a href="main.html#main176" target="main_1">176 心理學各論</a></li>
+<li><a href="main.html#main177" target="main_1">177 應用心理學</a></li>
+<li><a href="main.html#main178" target="main_1">178 臨床心理學</a></li>
+<li><a href="main.html#main179" target="main_1">179 心理計量；心理測量</a></li>
+</ul>
+</li>
+<li><a href="main.html#main180" target="main_1">180 美學</a>
+<ul>
+<li><a href="main.html#main180" target="main_1">180 美學總論</a></li>
+<li><a href="main.html#main181" target="main_1">181 美意識</a></li>
+<li><a href="main.html#main182" target="main_1">182 美與感覺</a></li>
+<li><a href="main.html#main183" target="main_1">183 美之形式</a></li>
+<li><a href="main.html#main184" target="main_1">184 美之內容</a></li>
+<li><a href="main.html#main185" target="main_1">185 審美情感</a></li>
+<li><a href="main.html#main186" target="main_1">186 審美判斷</a></li>
+<li><a href="main.html#main188" target="main_1">188 各派美學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main190" target="main_1">190 倫理學</a>
+<ul>
+<li><a href="main.html#main190" target="main_1">190 倫理學總論</a></li>
+<li><a href="main.html#main191" target="main_1">191 倫理學理論</a></li>
+<li><a href="main.html#main192" target="main_1">192 個人倫理；修身</a></li>
+<li><a href="main.html#main193" target="main_1">193 家庭倫理</a></li>
+<li><a href="main.html#main194" target="main_1">194 性倫理；婚姻</a></li>
+<li><a href="main.html#main195" target="main_1">195 社會倫理</a></li>
+<li><a href="main.html#main196" target="main_1">196 國家倫理</a></li>
+<li><a href="main.html#main197" target="main_1">197 生命倫理學</a></li>
+<li><a href="main.html#main198" target="main_1">198 職業倫理</a></li>
+<li><a href="main.html#main199" target="main_1">199 道德各論</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain200" target="main_1">主表 2 宗教類</a>
+<ul>
+<li><a href="main.html#main200" target="main_1">200 宗教總論</a>
+<ul>
+<li><a href="main.html#main200" target="main_1">200 宗教總論</a></li>
+<li><a href="main.html#main201" target="main_1">201 宗教政策</a></li>
+<li><a href="main.html#main203" target="main_1">203 宗教教育及研究</a></li>
+<li><a href="main.html#main204" target="main_1">204 宗教辭典</a></li>
+<li><a href="main.html#main205" target="main_1">205 宗教期刊</a></li>
+<li><a href="main.html#main206" target="main_1">206 宗教團體</a></li>
+<li><a href="main.html#main207" target="main_1">207 宗教論文集</a></li>
+<li><a href="main.html#main208" target="main_1">208 宗教叢書</a></li>
+<li><a href="main.html#main209" target="main_1">209 宗教史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main210" target="main_1">210 宗教學</a>
+<ul>
+<li><a href="main.html#main210" target="main_1">210 宗教學總論</a></li>
+<li><a href="main.html#main211" target="main_1">211 宗教經驗</a></li>
+<li><a href="main.html#main212" target="main_1">212 宗教倫理道德</a></li>
+<li><a href="main.html#main213" target="main_1">213 宗教行為及組織</a></li>
+<li><a href="main.html#main214" target="main_1">214 宗教與文化</a></li>
+<li><a href="main.html#main215" target="main_1">215 原始宗教</a></li>
+<li><a href="main.html#main216" target="main_1">216 宗教觀念與思想</a></li>
+<li><a href="main.html#main217" target="main_1">217 宗教交流</a></li>
+<li><a href="main.html#main218" target="main_1">218 各宗教比較論；比較宗教學</a></li>
+<li><a href="main.html#main219" target="main_1">219 宗教思想史；宗教學史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main220" target="main_1">220 佛教</a>
+<ul>
+<li><a href="main.html#main220" target="main_1">220 佛教總論</a></li>
+<li><a href="main.html#main221" target="main_1">221 經及其釋</a></li>
+<li><a href="main.html#main222" target="main_1">222 論及其釋</a></li>
+<li><a href="main.html#main223" target="main_1">223 律及其釋</a></li>
+<li><a href="main.html#main224" target="main_1">224 佛教儀制；佛教文藝</a></li>
+<li><a href="main.html#main225" target="main_1">225 佛教佈教及信仰生活</a></li>
+<li><a href="main.html#main226" target="main_1">226 佛教宗派</a></li>
+<li><a href="main.html#main227" target="main_1">227 寺院</a></li>
+<li><a href="main.html#main228" target="main_1">228 佛教史地</a></li>
+<li><a href="main.html#main229" target="main_1">229 佛教傳記</a></li>
+</ul>
+</li>
+<li><a href="main.html#main230" target="main_1">230 道教</a>
+<ul>
+<li><a href="main.html#main230" target="main_1">230 道教總論</a></li>
+<li><a href="main.html#main231" target="main_1">231 道藏</a></li>
+<li><a href="main.html#main233" target="main_1">233 道教規律</a></li>
+<li><a href="main.html#main234" target="main_1">234 道教儀式</a></li>
+<li><a href="main.html#main235" target="main_1">235 道教修鍊</a></li>
+<li><a href="main.html#main236" target="main_1">236 道教宗派</a></li>
+<li><a href="main.html#main237" target="main_1">237 道觀及道教組織</a></li>
+<li><a href="main.html#main238" target="main_1">238 道教史</a></li>
+<li><a href="main.html#main239" target="main_1">239 道教傳記</a></li>
+</ul>
+</li>
+<li><a href="main.html#main240" target="main_1">240 基督教</a>
+<ul>
+<li><a href="main.html#main240" target="main_1">240 基督教總論</a></li>
+<li><a href="main.html#main241" target="main_1">241 聖經</a></li>
+<li><a href="main.html#main242" target="main_1">242 神學；教義學</a></li>
+<li><a href="main.html#main243" target="main_1">243 教義文獻</a></li>
+<li><a href="main.html#main244" target="main_1">244 實際神學；儀式</a></li>
+<li><a href="main.html#main245" target="main_1">245 教牧學</a></li>
+<li><a href="main.html#main246" target="main_1">246 宗派</a></li>
+<li><a href="main.html#main247" target="main_1">247 教會；社會神學</a></li>
+<li><a href="main.html#main248" target="main_1">248 基督教史</a></li>
+<li><a href="main.html#main249" target="main_1">249 基督教傳記</a></li>
+</ul>
+</li>
+<li><a href="main.html#main250" target="main_1">250 伊斯蘭教</a>
+<ul>
+<li><a href="main.html#main250" target="main_1">250 伊斯蘭教總論</a></li>
+<li><a href="main.html#main251" target="main_1">251 伊斯蘭教經典</a></li>
+<li><a href="main.html#main252" target="main_1">252 伊斯蘭教論疏</a></li>
+<li><a href="main.html#main253" target="main_1">253 伊斯蘭教規律</a></li>
+<li><a href="main.html#main254" target="main_1">254 伊斯蘭教儀式</a></li>
+<li><a href="main.html#main255" target="main_1">255 伊斯蘭教佈教</a></li>
+<li><a href="main.html#main256" target="main_1">256 伊斯蘭教宗派</a></li>
+<li><a href="main.html#main257" target="main_1">257 伊斯蘭教教會及組織</a></li>
+<li><a href="main.html#main258" target="main_1">258 伊斯蘭教史</a></li>
+<li><a href="main.html#main259" target="main_1">259 伊斯蘭教傳記</a></li>
+</ul>
+</li>
+<li><a href="main.html#main260" target="main_1">260 猶太教</a>
+<ul>
+<li><a href="main.html#main260" target="main_1">260 猶太教總論</a></li>
+<li><a href="main.html#main261" target="main_1">261 猶太教經典</a></li>
+<li><a href="main.html#main262" target="main_1">262 猶太教教義</a></li>
+<li><a href="main.html#main263" target="main_1">263 猶太教規律</a></li>
+<li><a href="main.html#main264" target="main_1">264 猶太教儀式</a></li>
+<li><a href="main.html#main265" target="main_1">265 猶太教佈教</a></li>
+<li><a href="main.html#main266" target="main_1">266 猶太教宗派</a></li>
+<li><a href="main.html#main267" target="main_1">267 猶太教教會及組織</a></li>
+<li><a href="main.html#main268" target="main_1">268 猶太教史</a></li>
+<li><a href="main.html#main269" target="main_1">269 猶太教傳記</a></li>
+</ul>
+</li>
+<li><a href="main.html#main270" target="main_1">270 其他宗教</a>
+<ul>
+<li><a href="main.html#main270" target="main_1">270 其他宗教</a></li>
+<li><a href="main.html#main271" target="main_1">271 中國其他宗教</a></li>
+<li><a href="main.html#main272" target="main_1">272 祠祀</a></li>
+<li><a href="main.html#main273" target="main_1">273 日本神道</a></li>
+<li><a href="main.html#main274" target="main_1">274 婆羅門教；印度教</a></li>
+<li><a href="main.html#main275" target="main_1">275 祅教</a></li>
+<li><a href="main.html#main276" target="main_1">276 其他東方諸宗教</a></li>
+<li><a href="main.html#main277" target="main_1">277 希臘羅馬之宗教</a></li>
+<li><a href="main.html#main278" target="main_1">278 條頓系及北歐之宗教</a></li>
+<li><a href="main.html#main279" target="main_1">279 其他</a></li>
+</ul>
+</li>
+<li><a href="main.html#main280" target="main_1">280 神話</a>
+<ul>
+<li><a href="main.html#main280" target="main_1">280 神話總論</a></li>
+<li><a href="main.html#main282" target="main_1">282 中國神話</a></li>
+<li><a href="main.html#main283" target="main_1">283-287 各國神話</a></li>
+</ul>
+</li>
+<li><a href="main.html#main290" target="main_1">290 術數、迷信</a>
+<ul>
+<li><a href="main.html#main290" target="main_1">290 術數總論</a></li>
+<li><a href="main.html#main291" target="main_1">291 陰陽五行</a></li>
+<li><a href="main.html#main292" target="main_1">292 占卜</a></li>
+<li><a href="main.html#main293" target="main_1">293 命相</a></li>
+<li><a href="main.html#main294" target="main_1">294 堪輿</a></li>
+<li><a href="main.html#main295" target="main_1">295 巫術</a></li>
+<li><a href="main.html#main296" target="main_1">296 通靈術；心靈術</a></li>
+<li><a href="main.html#main297" target="main_1">297 異象奇聞；奇蹟</a></li>
+<li><a href="main.html#main298" target="main_1">298 迷信；禁忌</a></li>
+<li><a href="main.html#main299" target="main_1">299 各國迷信禁忌</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain300" target="main_1">主表 3 科學類</a>
+<ul>
+<li><a href="main.html#main300" target="main_1">300 科學總論</a>
+<ul>
+<li><a href="main.html#main300" target="main_1">300 科學總論</a></li>
+<li><a href="main.html#main301" target="main_1">301 科學理論</a></li>
+<li><a href="main.html#main302" target="main_1">302 科學參考工具</a></li>
+<li><a href="main.html#main303" target="main_1">303 科學教育及研究</a></li>
+<li><a href="main.html#main304" target="main_1">304 科學辭典</a></li>
+<li><a href="main.html#main305" target="main_1">305 科學期刊</a></li>
+<li><a href="main.html#main306" target="main_1">306 科學團體</a></li>
+<li><a href="main.html#main307" target="main_1">307 科學論文集</a></li>
+<li><a href="main.html#main308" target="main_1">308 科學叢書</a></li>
+<li><a href="main.html#main309" target="main_1">309 科學史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main310" target="main_1">310 數學</a>
+<ul>
+<li><a href="main.html#main310" target="main_1">310 數學總論</a></li>
+<li><a href="main.html#main311" target="main_1">311 初等數學</a></li>
+<li><a href="main.html#main312" target="main_1">312 電腦科學</a></li>
+<li><a href="main.html#main313" target="main_1">313 代數</a></li>
+<li><a href="main.html#main314" target="main_1">314 數學分析</a></li>
+<li><a href="main.html#main315" target="main_1">315 拓樸學</a></li>
+<li><a href="main.html#main316" target="main_1">316 幾何</a></li>
+<li><a href="main.html#main318" target="main_1">318 數值分析</a></li>
+<li><a href="main.html#main319" target="main_1">319 應用數學；機率</a></li>
+</ul>
+</li>
+<li><a href="main.html#main320" target="main_1">320 天文學</a>
+<ul>
+<li><a href="main.html#main320" target="main_1">320 天文學總論</a></li>
+<li><a href="main.html#main321" target="main_1">321 理論天文學</a></li>
+<li><a href="main.html#main322" target="main_1">322 實用天文學</a></li>
+<li><a href="main.html#main323" target="main_1">323 天體；天象</a></li>
+<li><a href="main.html#main324" target="main_1">324 天文地理學；大地天文學</a></li>
+<li><a href="main.html#main325" target="main_1">325 月球</a></li>
+<li><a href="main.html#main326" target="main_1">326 太空科學</a></li>
+<li><a href="main.html#main327" target="main_1">327 歲時；曆法；應用天文學</a></li>
+<li><a href="main.html#main328" target="main_1">328 氣象學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main330" target="main_1">330 物理學</a>
+<ul>
+<li><a href="main.html#main330" target="main_1">330 物理學總論</a></li>
+<li><a href="main.html#main331" target="main_1">331 理論物理學</a></li>
+<li><a href="main.html#main332" target="main_1">332 力學</a></li>
+<li><a href="main.html#main333" target="main_1">333 物質</a></li>
+<li><a href="main.html#main334" target="main_1">334 聲學；聲音</a></li>
+<li><a href="main.html#main335" target="main_1">335 熱學</a></li>
+<li><a href="main.html#main336" target="main_1">336 光；光學</a></li>
+<li><a href="main.html#main337" target="main_1">337 電學；電子學</a></li>
+<li><a href="main.html#main338" target="main_1">338 磁學</a></li>
+<li><a href="main.html#main339" target="main_1">339 現代物理</a></li>
+</ul>
+</li>
+<li><a href="main.html#main340" target="main_1">340 化學總論</a>
+<ul>
+<li><a href="main.html#main340" target="main_1">340 化學總論</a></li>
+<li><a href="main.html#main341" target="main_1">341 分析化學</a></li>
+<li><a href="main.html#main342" target="main_1">342 儀器分析化學</a></li>
+<li><a href="main.html#main343" target="main_1">343 高分子化學</a></li>
+<li><a href="main.html#main345" target="main_1">345 無機化學</a></li>
+<li><a href="main.html#main346" target="main_1">346 有機化學</a></li>
+<li><a href="main.html#main347" target="main_1">347 化學實驗及設備</a></li>
+<li><a href="main.html#main348" target="main_1">348 物理化學</a></li>
+<li><a href="main.html#main349" target="main_1">349 材料化學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main350" target="main_1">350 地球科學；地質學</a>
+<ul>
+<li><a href="main.html#main350" target="main_1">350 地球科學總論；地質學總論</a></li>
+<li><a href="main.html#main351" target="main_1">351 自然地理</a></li>
+<li><a href="main.html#main352" target="main_1">352 歷史地質學</a></li>
+<li><a href="main.html#main353" target="main_1">353 固態地球科學</a></li>
+<li><a href="main.html#main354" target="main_1">354 動力地質學</a></li>
+<li><a href="main.html#main355" target="main_1">355 經濟地質學</a></li>
+<li><a href="main.html#main356" target="main_1">356 地質調查</a></li>
+<li><a href="main.html#main357" target="main_1">357 礦物學</a></li>
+<li><a href="main.html#main358" target="main_1">358 岩石學</a></li>
+<li><a href="main.html#main359" target="main_1">359 古生物學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main360" target="main_1">360 生物科學</a>
+<ul>
+<li><a href="main.html#main360" target="main_1">360 生物科學總論</a></li>
+<li><a href="main.html#main361" target="main_1">361 普通生物學</a></li>
+<li><a href="main.html#main362" target="main_1">362 演化論</a></li>
+<li><a href="main.html#main363" target="main_1">363 遺傳學</a></li>
+<li><a href="main.html#main364" target="main_1">364 細胞論</a></li>
+<li><a href="main.html#main365" target="main_1">365 經濟生物學</a></li>
+<li><a href="main.html#main366" target="main_1">366 生物分布；生物地理學</a></li>
+<li><a href="main.html#main367" target="main_1">367 生態學</a></li>
+<li><a href="main.html#main368" target="main_1">368 生物技術</a></li>
+<li><a href="main.html#main369" target="main_1">369 微生物學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main370" target="main_1">370 植物學</a>
+<ul>
+<li><a href="main.html#main370" target="main_1">370 植物學總論</a></li>
+<li><a href="main.html#main371" target="main_1">371 植物形態學</a></li>
+<li><a href="main.html#main373" target="main_1">373 植物生理學</a></li>
+<li><a href="main.html#main374" target="main_1">374 植物生態學</a></li>
+<li><a href="main.html#main375" target="main_1">375 植物分類學</a></li>
+<li><a href="main.html#main376" target="main_1">376 經濟植物學</a></li>
+<li><a href="main.html#main377" target="main_1">377 種子植物</a></li>
+<li><a href="main.html#main378" target="main_1">378 孢子植物</a></li>
+<li><a href="main.html#main379" target="main_1">379 菌藻植物門</a></li>
+</ul>
+</li>
+<li><a href="main.html#main380" target="main_1">380 動物學</a>
+<ul>
+<li><a href="main.html#main380" target="main_1">380 動物學總論</a></li>
+<li><a href="main.html#main381" target="main_1">381 動物形態學</a></li>
+<li><a href="main.html#main382" target="main_1">382 動物解剖學</a></li>
+<li><a href="main.html#main383" target="main_1">383 動物生理學</a></li>
+<li><a href="main.html#main384" target="main_1">384 應用動物學；經濟動物學</a></li>
+<li><a href="main.html#main385" target="main_1">385 動物分佈；動物地理學</a></li>
+<li><a href="main.html#main386" target="main_1">386 無脊椎動物</a></li>
+<li><a href="main.html#main387" target="main_1">387 節肢動物門；緩步動物門；舌形動物門</a></li>
+<li><a href="main.html#main388" target="main_1">388 半索動物門；脊索動物門</a></li>
+<li><a href="main.html#main389" target="main_1">389 哺乳綱</a></li>
+</ul>
+</li>
+<li><a href="main.html#main390" target="main_1">390 人類學</a>
+<ul>
+<li><a href="main.html#main390" target="main_1">390 人類學總論</a></li>
+<li><a href="main.html#main391" target="main_1">391 體質人類學</a></li>
+<li><a href="main.html#main392" target="main_1">392 人種學</a></li>
+<li><a href="main.html#main394" target="main_1">394 人體解剖學</a></li>
+<li><a href="main.html#main395" target="main_1">395 人體組織學；顯微解剖學</a></li>
+<li><a href="main.html#main396" target="main_1">396 人體胚胎學</a></li>
+<li><a href="main.html#main397" target="main_1">397 人體生理學</a></li>
+<li><a href="main.html#main398" target="main_1">398 各部生理</a></li>
+<li><a href="main.html#main399" target="main_1">399 生物化學；醫化學</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain400" target="main_1">主表 4 應用科學</a>
+<ul>
+<li><a href="main.html#main400" target="main_1">400 應用科學總論</a>
+<ul>
+<li><a href="main.html#main400" target="main_1">400 應用科學總論</a></li>
+<li><a href="main.html#main401" target="main_1">401 技術理論</a></li>
+<li><a href="main.html#main402" target="main_1">402 技術參考工具</a></li>
+<li><a href="main.html#main403" target="main_1">403 技術教育及研究</a></li>
+<li><a href="main.html#main404" target="main_1">404 技術辭典</a></li>
+<li><a href="main.html#main406" target="main_1">406 技術團體</a></li>
+<li><a href="main.html#main408" target="main_1">408 技術叢書</a></li>
+<li><a href="main.html#main409" target="main_1">409 技術史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main410" target="main_1">410 醫藥</a>
+<ul>
+<li><a href="main.html#main410" target="main_1">410 醫藥總論</a></li>
+<li><a href="main.html#main411" target="main_1">411 衛生學</a></li>
+<li><a href="main.html#main412" target="main_1">412 公共衛生</a></li>
+<li><a href="main.html#main413" target="main_1">413 中國醫學</a></li>
+<li><a href="main.html#main414" target="main_1">414 中藥學</a></li>
+<li><a href="main.html#main415" target="main_1">415 西醫學</a></li>
+<li><a href="main.html#main416" target="main_1">416 外科</a></li>
+<li><a href="main.html#main417" target="main_1">417 婦產科；老幼科</a></li>
+<li><a href="main.html#main418" target="main_1">418 藥學；藥理學；治療學</a></li>
+<li><a href="main.html#main419" target="main_1">419 醫院管理；醫事行政；護理</a></li>
+</ul>
+</li>
+<li><a href="main.html#main420" target="main_1">420 家政</a>
+<ul>
+<li><a href="main.html#main420" target="main_1">420 家政總論</a></li>
+<li><a href="main.html#main421" target="main_1">421 家庭經濟；家庭管理</a></li>
+<li><a href="main.html#main422" target="main_1">422 居住環境</a></li>
+<li><a href="main.html#main423" target="main_1">423 衣飾；服裝</a></li>
+<li><a href="main.html#main425" target="main_1">425 美容</a></li>
+<li><a href="main.html#main426" target="main_1">426 家庭手藝</a></li>
+<li><a href="main.html#main427" target="main_1">427 飲食；烹飪</a></li>
+<li><a href="main.html#main428" target="main_1">428 育兒</a></li>
+<li><a href="main.html#main429" target="main_1">429 家庭衛生</a></li>
+</ul>
+</li>
+<li><a href="main.html#main430" target="main_1">430 農業</a>
+<ul>
+<li><a href="main.html#main430" target="main_1">430 農業總論</a></li>
+<li><a href="main.html#main431" target="main_1">431 農業經濟</a></li>
+<li><a href="main.html#main433" target="main_1">433 農業氣象與災害</a></li>
+<li><a href="main.html#main434" target="main_1">434 農藝</a></li>
+<li><a href="main.html#main435" target="main_1">435 園藝</a></li>
+<li><a href="main.html#main436" target="main_1">436 森林</a></li>
+<li><a href="main.html#main437" target="main_1">437 畜牧與獸醫</a></li>
+<li><a href="main.html#main438" target="main_1">438 漁業</a></li>
+<li><a href="main.html#main439" target="main_1">439 農產加工</a></li>
+</ul>
+</li>
+<li><a href="main.html#main440" target="main_1">440 工程</a>
+<ul>
+<li><a href="main.html#main440" target="main_1">440 工程學總論</a></li>
+<li><a href="main.html#main441" target="main_1">441 土木工程；建築工程</a></li>
+<li><a href="main.html#main442" target="main_1">442 道路工程；鐵路工程</a></li>
+<li><a href="main.html#main443" target="main_1">443 水利工程</a></li>
+<li><a href="main.html#main444" target="main_1">444 船舶工程</a></li>
+<li><a href="main.html#main445" target="main_1">445 市政工程；環境工程</a></li>
+<li><a href="main.html#main446" target="main_1">446 機械工程</a></li>
+<li><a href="main.html#main447" target="main_1">447 交通工具工程</a></li>
+<li><a href="main.html#main448" target="main_1">448 電機工程</a></li>
+<li><a href="main.html#main449" target="main_1">449 核子工程</a></li>
+</ul>
+</li>
+<li><a href="main.html#main450" target="main_1">450 礦冶</a>
+<ul>
+<li><a href="main.html#main450" target="main_1">450 礦冶總論</a></li>
+<li><a href="main.html#main451" target="main_1">451 礦業經濟</a></li>
+<li><a href="main.html#main452" target="main_1">452 探礦；採礦；選礦</a></li>
+<li><a href="main.html#main453" target="main_1">453 金屬礦</a></li>
+<li><a href="main.html#main454" target="main_1">454 冶金；合金</a></li>
+<li><a href="main.html#main456" target="main_1">456 煤礦</a></li>
+<li><a href="main.html#main457" target="main_1">457 石油礦；石油工業</a></li>
+<li><a href="main.html#main458" target="main_1">458-459 非金屬礦</a></li>
+</ul>
+</li>
+<li><a href="main.html#main460" target="main_1">460 化學工程</a>
+<ul>
+<li><a href="main.html#main460" target="main_1">460 化學工業</a></li>
+<li><a href="main.html#main461" target="main_1">461 化學藥品；化學工業</a></li>
+<li><a href="main.html#main462" target="main_1">462 爆炸物；燃料；照明</a></li>
+<li><a href="main.html#main463" target="main_1">463 食品化學工業；營養化學工業</a></li>
+<li><a href="main.html#main464" target="main_1">464 矽酸鹽工業</a></li>
+<li><a href="main.html#main465" target="main_1">465 染料；顏料；塗料</a></li>
+<li><a href="main.html#main466" target="main_1">466 油脂及界面活性劑工業</a></li>
+<li><a href="main.html#main467" target="main_1">467 高分子化學工業</a></li>
+<li><a href="main.html#main468" target="main_1">468 電化學工業</a></li>
+<li><a href="main.html#main469" target="main_1">469 其他化學工業</a></li>
+</ul>
+</li>
+<li><a href="main.html#main470" target="main_1">470 製造</a>
+<ul>
+<li><a href="main.html#main470" target="main_1">470 製造總論</a></li>
+<li><a href="main.html#main471" target="main_1">471 精密機械工藝</a></li>
+<li><a href="main.html#main472" target="main_1">472 金屬工藝</a></li>
+<li><a href="main.html#main473" target="main_1">473 石材工藝</a></li>
+<li><a href="main.html#main474" target="main_1">474 木工藝；竹工藝</a></li>
+<li><a href="main.html#main475" target="main_1">475 皮革工藝</a></li>
+<li><a href="main.html#main476" target="main_1">476 造紙工藝</a></li>
+<li><a href="main.html#main477" target="main_1">477 印刷工藝</a></li>
+<li><a href="main.html#main478" target="main_1">478 纖維工程</a></li>
+<li><a href="main.html#main479" target="main_1">479 其他工藝</a></li>
+</ul>
+</li>
+<li><a href="main.html#main480" target="main_1">480 商業：各種營業</a>
+<ul>
+<li><a href="main.html#main480" target="main_1">480 商業總論</a></li>
+<li><a href="main.html#main481" target="main_1">481 糧商業</a></li>
+<li><a href="main.html#main482" target="main_1">482 其他農產品業</a></li>
+<li><a href="main.html#main483" target="main_1">483 畜牧水產品業；飲食相關行業</a></li>
+<li><a href="main.html#main484" target="main_1">484 機械業；電機資訊業</a></li>
+<li><a href="main.html#main485" target="main_1">485 化學製品業</a></li>
+<li><a href="main.html#main486" target="main_1">486 礦產品業</a></li>
+<li><a href="main.html#main487" target="main_1">487 製造品業</a></li>
+<li><a href="main.html#main488" target="main_1">488 紡織品業</a></li>
+<li><a href="main.html#main489" target="main_1">489 其他各種營業</a></li>
+</ul>
+</li>
+<li><a href="main.html#main490" target="main_1">490 商業：經營學</a>
+<ul>
+<li><a href="main.html#main490" target="main_1">490 商學總論</a></li>
+<li><a href="main.html#main491" target="main_1">491 商業地理</a></li>
+<li><a href="main.html#main492" target="main_1">492 商政</a></li>
+<li><a href="main.html#main493" target="main_1">493 商業實踐</a></li>
+<li><a href="main.html#main494" target="main_1">494 企業管理</a></li>
+<li><a href="main.html#main495" target="main_1">495 會計</a></li>
+<li><a href="main.html#main496" target="main_1">496 商品學；市場學；行銷管理</a></li>
+<li><a href="main.html#main497" target="main_1">497 廣告</a></li>
+<li><a href="main.html#main498" target="main_1">498 商店</a></li>
+<li><a href="main.html#main499" target="main_1">499 企業志；公司行號志</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain500" target="main_1">主表 5 社會科學</a>
+<ul>
+<li><a href="main.html#main500" target="main_1">500 社會科學總論</a>
+<ul>
+<li><a href="main.html#main500" target="main_1">500 社會科學總論</a></li>
+<li><a href="main.html#main501" target="main_1">501 社會科學理論</a></li>
+<li><a href="main.html#main502" target="main_1">502 社會科學參考工具</a></li>
+<li><a href="main.html#main503" target="main_1">503 社會科學教育及研究</a></li>
+<li><a href="main.html#main504" target="main_1">504 社會科學辭典</a></li>
+<li><a href="main.html#main505" target="main_1">505 社會科學期刊</a></li>
+<li><a href="main.html#main506" target="main_1">506 社會科學團體</a></li>
+<li><a href="main.html#main507" target="main_1">507 社會科學論文集</a></li>
+<li><a href="main.html#main508" target="main_1">508 社會科學叢書</a></li>
+</ul>
+</li>
+<li><a href="main.html#main510" target="main_1">510 統計</a>
+<ul>
+<li><a href="main.html#main510" target="main_1">510 統計學總論</a></li>
+<li><a href="main.html#main511" target="main_1">511 統計學各論</a></li>
+<li><a href="main.html#main512" target="main_1">512 統計資料處理</a></li>
+<li><a href="main.html#main513" target="main_1">513 統計機關</a></li>
+<li><a href="main.html#main514" target="main_1">514 各國統計</a></li>
+<li><a href="main.html#main515" target="main_1">515 人口統計</a></li>
+<li><a href="main.html#main516" target="main_1">516 生命統計</a></li>
+<li><a href="main.html#main517" target="main_1">517 國民所得統計</a></li>
+<li><a href="main.html#main518" target="main_1">518 應用統計學</a></li>
+<li><a href="main.html#main519" target="main_1">519 各科統計</a></li>
+</ul>
+</li>
+<li><a href="main.html#main520" target="main_1">520 教育</a>
+<ul>
+<li><a href="main.html#main520" target="main_1">520 教育</a></li>
+<li><a href="main.html#main521" target="main_1">521 教育心理學</a></li>
+<li><a href="main.html#main522" target="main_1">522 教師及師資培育</a></li>
+<li><a href="main.html#main523" target="main_1">523 初等教育</a></li>
+<li><a href="main.html#main524" target="main_1">524 中等教育</a></li>
+<li><a href="main.html#main525" target="main_1">525 高等教育</a></li>
+<li><a href="main.html#main526" target="main_1">526 教育行政</a></li>
+<li><a href="main.html#main527" target="main_1">527 學校管理</a></li>
+<li><a href="main.html#main528" target="main_1">528 各種教育</a></li>
+<li><a href="main.html#main529" target="main_1">529 特殊人教育</a></li>
+</ul>
+</li>
+<li><a href="main.html#main530" target="main_1">530 禮俗總論</a>
+<ul>
+<li><a href="main.html#main530" target="main_1">530 禮俗總論</a></li>
+<li><a href="main.html#main531" target="main_1">531 禮經</a></li>
+<li><a href="main.html#main532" target="main_1">532 通禮</a></li>
+<li><a href="main.html#main533" target="main_1">533 邦禮</a></li>
+<li><a href="main.html#main534" target="main_1">534 家禮</a></li>
+<li><a href="main.html#main535" target="main_1">535 民族學</a></li>
+<li><a href="main.html#main536" target="main_1">536 民族志</a></li>
+<li><a href="main.html#main537" target="main_1">537 原始文化</a></li>
+<li><a href="main.html#main538" target="main_1">538 民俗學</a></li>
+<li><a href="main.html#main539" target="main_1">539 民謠</a></li>
+</ul>
+</li>
+<li><a href="main.html#main540" target="main_1">540 社會學</a>
+<ul>
+<li><a href="main.html#main540" target="main_1">540 社會學總論</a></li>
+<li><a href="main.html#main541" target="main_1">541 社會學各論</a></li>
+<li><a href="main.html#main542" target="main_1">542 社會問題</a></li>
+<li><a href="main.html#main543" target="main_1">543 社會調查報告</a></li>
+<li><a href="main.html#main544" target="main_1">544 家庭；族制</a></li>
+<li><a href="main.html#main545" target="main_1">545 社區</a></li>
+<li><a href="main.html#main546" target="main_1">546 社會階層及組織</a></li>
+<li><a href="main.html#main547" target="main_1">547 社會工作</a></li>
+<li><a href="main.html#main548" target="main_1">548 社會救濟</a></li>
+<li><a href="main.html#main549" target="main_1">549 社會改革論</a></li>
+</ul>
+</li>
+<li><a href="main.html#main550" target="main_1">550 經濟</a>
+<ul>
+<li><a href="main.html#main550" target="main_1">550 經濟學總論</a></li>
+<li><a href="main.html#main551" target="main_1">551 經濟學各論</a></li>
+<li><a href="main.html#main552" target="main_1">552 經濟史地</a></li>
+<li><a href="main.html#main553" target="main_1">553 生產</a></li>
+<li><a href="main.html#main554" target="main_1">554 土地問題</a></li>
+<li><a href="main.html#main555" target="main_1">555 產業；工業</a></li>
+<li><a href="main.html#main556" target="main_1">556 勞工</a></li>
+<li><a href="main.html#main557" target="main_1">557 交通</a></li>
+<li><a href="main.html#main558" target="main_1">558 貿易</a></li>
+<li><a href="main.html#main559" target="main_1">559 合作</a></li>
+</ul>
+</li>
+<li><a href="main.html#main560" target="main_1">560 財政</a>
+<ul>
+<li><a href="main.html#main560" target="main_1">560 財政學總論</a></li>
+<li><a href="main.html#main561" target="main_1">561 貨幣</a></li>
+<li><a href="main.html#main562" target="main_1">562 銀行</a></li>
+<li><a href="main.html#main563" target="main_1">563 金融各論</a></li>
+<li><a href="main.html#main564" target="main_1">564 公共財政</a></li>
+<li><a href="main.html#main565" target="main_1">565 各國財政狀況</a></li>
+<li><a href="main.html#main566" target="main_1">566 地方財政</a></li>
+<li><a href="main.html#main567" target="main_1">567 租稅</a></li>
+<li><a href="main.html#main568" target="main_1">568 關稅</a></li>
+</ul>
+</li>
+<li><a href="main.html#main570" target="main_1">570 政治</a>
+<ul>
+<li><a href="main.html#main570" target="main_1">570 政治學總論</a></li>
+<li><a href="main.html#main571" target="main_1">571 政治學各論</a></li>
+<li><a href="main.html#main572" target="main_1">572 比較政府</a></li>
+<li><a href="main.html#main573" target="main_1">573 中國政治制度</a></li>
+<li><a href="main.html#main574" target="main_1">574 各國政治</a></li>
+<li><a href="main.html#main575" target="main_1">575 地方制度</a></li>
+<li><a href="main.html#main576" target="main_1">576 政黨</a></li>
+<li><a href="main.html#main577" target="main_1">577 移民及殖民</a></li>
+<li><a href="main.html#main578" target="main_1">578 國際關係</a></li>
+<li><a href="main.html#main579" target="main_1">579 國際法</a></li>
+</ul>
+</li>
+<li><a href="main.html#main580" target="main_1">580 法律</a>
+<ul>
+<li><a href="main.html#main580" target="main_1">580 法律總論</a></li>
+<li><a href="main.html#main581" target="main_1">581 憲法</a></li>
+<li><a href="main.html#main582" target="main_1">582 中國法規彙編</a></li>
+<li><a href="main.html#main583" target="main_1">583 各國法規</a></li>
+<li><a href="main.html#main584" target="main_1">584 民法</a></li>
+<li><a href="main.html#main585" target="main_1">585 刑法</a></li>
+<li><a href="main.html#main586" target="main_1">586 訴訟法</a></li>
+<li><a href="main.html#main587" target="main_1">587 商事法</a></li>
+<li><a href="main.html#main588" target="main_1">588 行政法</a></li>
+</ul>
+</li>
+<li><a href="main.html#main590" target="main_1">590 軍事</a>
+<ul>
+<li><a href="main.html#main590" target="main_1">590 軍事總論</a></li>
+<li><a href="main.html#main591" target="main_1">591 軍制</a></li>
+<li><a href="main.html#main592" target="main_1">592 兵法；作戰法</a></li>
+<li><a href="main.html#main593" target="main_1">593 軍事教育</a></li>
+<li><a href="main.html#main594" target="main_1">594 軍需</a></li>
+<li><a href="main.html#main595" target="main_1">595 軍事技術</a></li>
+<li><a href="main.html#main596" target="main_1">596 陸軍</a></li>
+<li><a href="main.html#main597" target="main_1">597 海軍</a></li>
+<li><a href="main.html#main598" target="main_1">598 空軍</a></li>
+<li><a href="main.html#main599" target="main_1">599 國防</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain600" target="main_1">主表 600 史地類</a>
+<ul>
+<li><a href="main.html#main600" target="main_1">600 史地總論</a>
+<ul>
+<li><a href="main.html#main600" target="main_1">600 史地總論</a></li>
+<li><a href="main.html#main601" target="main_1">601 史學</a></li>
+<li><a href="main.html#main602" target="main_1">602 史學參考工具</a></li>
+<li><a href="main.html#main603" target="main_1">603 史學教育及研究</a></li>
+<li><a href="main.html#main604" target="main_1">604 史學辭典</a></li>
+<li><a href="main.html#main605" target="main_1">605 史學期刊</a></li>
+<li><a href="main.html#main606" target="main_1">606 史學團體</a></li>
+<li><a href="main.html#main607" target="main_1">607 史學論文集</a></li>
+<li><a href="main.html#main608" target="main_1">608 史學叢書</a></li>
+<li><a href="main.html#main609" target="main_1">609 地理學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main610" target="main_1">610 中國史地</a>
+<ul>
+<li><a href="main.html#main610" target="main_1">610 中國通史</a></li>
+<li><a href="main.html#main611" target="main_1">611 中國史學理論</a></li>
+<li><a href="main.html#main612" target="main_1">612 中國史學參考工具</a></li>
+<li><a href="main.html#main613" target="main_1">613 中國史學教育</a></li>
+<li><a href="main.html#main614" target="main_1">614 中國史學辭典</a></li>
+<li><a href="main.html#main615" target="main_1">615 中國史學期刊</a></li>
+<li><a href="main.html#main616" target="main_1">616 中國史學團體</a></li>
+<li><a href="main.html#main617" target="main_1">617 中國史學論文集</a></li>
+<li><a href="main.html#main618" target="main_1">618 中國史學叢書</a></li>
+<li><a href="main.html#main619" target="main_1">619 中國史研究</a></li>
+</ul>
+</li>
+<li><a href="main.html#main620" target="main_1">620 中國斷代史</a>
+<ul>
+<li><a href="main.html#main620" target="main_1">620 中國斷代史</a></li>
+<li><a href="main.html#main621" target="main_1">621 先秦</a></li>
+<li><a href="main.html#main622" target="main_1">622 漢及三國</a></li>
+<li><a href="main.html#main623" target="main_1">623 晉及南北朝</a></li>
+<li><a href="main.html#main624" target="main_1">624 唐及五代</a></li>
+<li><a href="main.html#main625" target="main_1">625 宋及遼金元</a></li>
+<li><a href="main.html#main626" target="main_1">626 明</a></li>
+<li><a href="main.html#main627" target="main_1">627 清</a></li>
+<li><a href="main.html#main628" target="main_1">628 民國</a></li>
+<li><a href="main.html#main629" target="main_1">629 中國方隅史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main630" target="main_1">630 中國文化史</a>
+<ul>
+<li><a href="main.html#main630" target="main_1">630 中國文化史</a></li>
+<li><a href="main.html#main631" target="main_1">631 先秦文化史</a></li>
+<li><a href="main.html#main632" target="main_1">632 漢及三國文化史</a></li>
+<li><a href="main.html#main633" target="main_1">633 晉及南北朝文化史</a></li>
+<li><a href="main.html#main634" target="main_1">634 唐及五代文化史</a></li>
+<li><a href="main.html#main635" target="main_1">635 宋及遼金元文化史</a></li>
+<li><a href="main.html#main636" target="main_1">636 明代文化史</a></li>
+<li><a href="main.html#main637" target="main_1">637 清代文化史</a></li>
+<li><a href="main.html#main638" target="main_1">638 現代文化史</a></li>
+<li><a href="main.html#main639" target="main_1">639 中國民族史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main640" target="main_1">640 中國外交史</a>
+<ul>
+<li><a href="main.html#main640" target="main_1">640 中國外交史</a></li>
+<li><a href="main.html#main641" target="main_1">641 前代中國外交史</a></li>
+<li><a href="main.html#main642" target="main_1">642 現代中國外交史</a></li>
+<li><a href="main.html#main643" target="main_1">643 中國與亞洲</a></li>
+<li><a href="main.html#main644" target="main_1">644 中國與歐洲</a></li>
+<li><a href="main.html#main645" target="main_1">645 中國與美洲</a></li>
+<li><a href="main.html#main646" target="main_1">646 中國與非洲</a></li>
+<li><a href="main.html#main647" target="main_1">647 中國與大洋洲</a></li>
+<li><a href="main.html#main648" target="main_1">648 中國與國際機構</a></li>
+<li><a href="main.html#main649" target="main_1">649 中國各地方外交史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main650" target="main_1">650 中國史料</a>
+<ul>
+<li><a href="main.html#main650" target="main_1">650 中國史料</a></li>
+<li><a href="main.html#main651" target="main_1">651 詔令</a></li>
+<li><a href="main.html#main652" target="main_1">652 奏議；公牘</a></li>
+<li><a href="main.html#main653" target="main_1">653 起居注</a></li>
+<li><a href="main.html#main654" target="main_1">654 實錄</a></li>
+<li><a href="main.html#main655" target="main_1">655 檔案</a></li>
+<li><a href="main.html#main656" target="main_1">656 族檔</a></li>
+<li><a href="main.html#main657" target="main_1">657 公報</a></li>
+<li><a href="main.html#main658" target="main_1">658 中國史料叢刊</a></li>
+<li><a href="main.html#main659" target="main_1">659 雜史料</a></li>
+</ul>
+</li>
+<li><a href="main.html#main660" target="main_1">660 中國地理</a>
+<ul>
+<li><a href="main.html#main660" target="main_1">660 中國地理總志</a></li>
+<li><a href="main.html#main661" target="main_1">661 先秦地理志</a></li>
+<li><a href="main.html#main662" target="main_1">662 漢及三國地理志</a></li>
+<li><a href="main.html#main663" target="main_1">663 晉及南北朝地理志</a></li>
+<li><a href="main.html#main664" target="main_1">664 唐及五代地理志</a></li>
+<li><a href="main.html#main665" target="main_1">665 宋及遼金元地理志</a></li>
+<li><a href="main.html#main666" target="main_1">666 明代地理志</a></li>
+<li><a href="main.html#main667" target="main_1">667 清代地理志</a></li>
+<li><a href="main.html#main669" target="main_1">669 中國歷史地理</a></li>
+</ul>
+</li>
+<li><a href="main.html#main670" target="main_1">670 中國地方志</a>
+<ul>
+<li><a href="main.html#main670" target="main_1">670 中國地方志總論</a></li>
+<li><a href="main.html#main671" target="main_1">671 華北地區</a></li>
+<li><a href="main.html#main672" target="main_1">672 華中地區</a></li>
+<li><a href="main.html#main673" target="main_1">673 華南地區</a></li>
+<li><a href="main.html#main674" target="main_1">674 東北地區</a></li>
+<li><a href="main.html#main675" target="main_1">675 塞北地區</a></li>
+<li><a href="main.html#main676" target="main_1">676 西部地區</a></li>
+<li><a href="main.html#main%5B677%5D" target="main_1">[677] 臺灣史地</a></li>
+<li><a href="main.html#main%5B678%5D" target="main_1">[678] 臺灣分區志</a></li>
+</ul>
+</li>
+<li><a href="main.html#main680" target="main_1">680 中國地理類志</a>
+<ul>
+<li><a href="main.html#main680" target="main_1">680 中國地理類志</a></li>
+<li><a href="main.html#main681" target="main_1">681 都城</a></li>
+<li><a href="main.html#main682" target="main_1">682 水志</a></li>
+<li><a href="main.html#main683" target="main_1">683 山志</a></li>
+<li><a href="main.html#main684" target="main_1">684 名勝古蹟</a></li>
+<li><a href="main.html#main685" target="main_1">685 人文地理</a></li>
+<li><a href="main.html#main%5B686%5D" target="main_1">[686] 經濟地理</a></li>
+<li><a href="main.html#main%5B687%5D" target="main_1">[687] 人物</a></li>
+<li><a href="main.html#main689" target="main_1">689 雜記</a></li>
+</ul>
+</li>
+<li><a href="main.html#main690" target="main_1">690 中國遊記</a>
+<ul>
+<li><a href="main.html#main690" target="main_1">690 中國遊記</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain700" target="main_1">主表 700 世界史地</a>
+<ul>
+<li><a href="main.html#main710" target="main_1">710 世界史地</a>
+<ul>
+<li><a href="main.html#main710" target="main_1">710 世界史地</a></li>
+<li><a href="main.html#main711" target="main_1">711 世界通史</a></li>
+<li><a href="main.html#main712" target="main_1">712 世界斷代史</a></li>
+<li><a href="main.html#main713" target="main_1">713 世界文化史</a></li>
+<li><a href="main.html#main714" target="main_1">714 世界外交史</a></li>
+<li><a href="main.html#main715" target="main_1">715 世界史料</a></li>
+<li><a href="main.html#main716" target="main_1">716 世界地理</a></li>
+<li><a href="main.html#main717" target="main_1">717 世界區域志</a></li>
+<li><a href="main.html#main718" target="main_1">718 世界地理類志</a></li>
+<li><a href="main.html#main719" target="main_1">719 世界遊記</a></li>
+</ul>
+</li>
+<li><a href="main.html#main720" target="main_1">720 海洋志</a>
+<ul>
+<li><a href="main.html#main720" target="main_1">720 海洋志總論</a></li>
+<li><a href="main.html#main721" target="main_1">721 太平洋</a></li>
+<li><a href="main.html#main722" target="main_1">722 北太平洋</a></li>
+<li><a href="main.html#main723" target="main_1">723 南太平洋</a></li>
+<li><a href="main.html#main724" target="main_1">724 印度洋</a></li>
+<li><a href="main.html#main725" target="main_1">725 大西洋</a></li>
+<li><a href="main.html#main726" target="main_1">726 地中海</a></li>
+<li><a href="main.html#main727" target="main_1">727 北極海</a></li>
+<li><a href="main.html#main728" target="main_1">728 南極海</a></li>
+<li><a href="main.html#main729" target="main_1">729 航海記彙編</a></li>
+</ul>
+</li>
+<li><a href="main.html#main730" target="main_1">730 亞洲史地</a>
+<ul>
+<li><a href="main.html#main730" target="main_1">730 亞洲史地總論</a></li>
+<li><a href="main.html#main731" target="main_1">731 日本</a></li>
+<li><a href="main.html#main732" target="main_1">732 韓國</a></li>
+<li><a href="main.html#main733" target="main_1">733 臺灣史地</a></li>
+<li><a href="main.html#main734" target="main_1">734 中亞</a></li>
+<li><a href="main.html#main735" target="main_1">735 中東</a></li>
+<li><a href="main.html#main736" target="main_1">736 西南亞</a></li>
+<li><a href="main.html#main737" target="main_1">737 南亞</a></li>
+<li><a href="main.html#main738" target="main_1">738 東南亞</a></li>
+<li><a href="main.html#main739" target="main_1">739 馬來群島</a></li>
+</ul>
+</li>
+<li><a href="main.html#main740" target="main_1">740 歐洲史地</a>
+<ul>
+<li><a href="main.html#main740" target="main_1">740 歐洲史地總論</a></li>
+<li><a href="main.html#main741" target="main_1">741 英國</a></li>
+<li><a href="main.html#main742" target="main_1">742 法國</a></li>
+<li><a href="main.html#main743" target="main_1">743 德國</a></li>
+<li><a href="main.html#main744" target="main_1">744 中歐</a></li>
+<li><a href="main.html#main745" target="main_1">745 義大利</a></li>
+<li><a href="main.html#main746" target="main_1">746 伊比利半島及諸小國</a></li>
+<li><a href="main.html#main747" target="main_1">747 北歐</a></li>
+<li><a href="main.html#main748" target="main_1">748 俄羅斯</a></li>
+<li><a href="main.html#main749" target="main_1">749 東南歐</a></li>
+</ul>
+</li>
+<li><a href="main.html#main750" target="main_1">750 美洲史地</a>
+<ul>
+<li><a href="main.html#main750" target="main_1">750 美洲史地總論</a></li>
+<li><a href="main.html#main751" target="main_1">751 北美洲</a></li>
+<li><a href="main.html#main752" target="main_1">752 美國</a></li>
+<li><a href="main.html#main753" target="main_1">753 加拿大</a></li>
+<li><a href="main.html#main754" target="main_1">754 拉丁美洲</a></li>
+<li><a href="main.html#main755" target="main_1">755 中美諸國</a></li>
+<li><a href="main.html#main756" target="main_1">756 南美洲</a></li>
+<li><a href="main.html#main757" target="main_1">757 南美各國：巴西、阿根廷等國</a></li>
+<li><a href="main.html#main758" target="main_1">758 南美各國：智利、祕魯等國</a></li>
+<li><a href="main.html#main759" target="main_1">759 其他南美諸國</a></li>
+</ul>
+</li>
+<li><a href="main.html#main760" target="main_1">760 非洲史地</a>
+<ul>
+<li><a href="main.html#main760" target="main_1">760 非洲史地總論</a></li>
+<li><a href="main.html#main761" target="main_1">761 埃及</a></li>
+<li><a href="main.html#main762" target="main_1">762 衣索匹亞</a></li>
+<li><a href="main.html#main763" target="main_1">763 撒哈拉</a></li>
+<li><a href="main.html#main764" target="main_1">764 中非</a></li>
+<li><a href="main.html#main765" target="main_1">765 東非</a></li>
+<li><a href="main.html#main766" target="main_1">766 西非</a></li>
+<li><a href="main.html#main767" target="main_1">767 西北非洲</a></li>
+<li><a href="main.html#main768" target="main_1">768 南部非洲</a></li>
+<li><a href="main.html#main769" target="main_1">769 非洲屬島</a></li>
+</ul>
+</li>
+<li><a href="main.html#main770" target="main_1">770 大洋洲史地</a>
+<ul>
+<li><a href="main.html#main770" target="main_1">770 大洋洲總論</a></li>
+<li><a href="main.html#main771" target="main_1">771 澳大利亞</a></li>
+<li><a href="main.html#main772" target="main_1">772 紐西蘭</a></li>
+<li><a href="main.html#main774" target="main_1">774 太平洋諸島嶼</a></li>
+<li><a href="main.html#main775" target="main_1">775 美拉尼西亞</a></li>
+<li><a href="main.html#main776" target="main_1">776 密克羅尼西亞</a></li>
+<li><a href="main.html#main777" target="main_1">777 玻里尼西亞</a></li>
+<li><a href="main.html#main778" target="main_1">778 北極</a></li>
+<li><a href="main.html#main779" target="main_1">779 南極洲</a></li>
+</ul>
+</li>
+<li><a href="main.html#main780" target="main_1">780 傳記</a>
+<ul>
+<li><a href="main.html#main780" target="main_1">780 傳記總論</a></li>
+<li><a href="main.html#main781" target="main_1">781 世界傳記</a></li>
+<li><a href="main.html#main782" target="main_1">782 中國傳記</a></li>
+<li><a href="main.html#main783" target="main_1">783 亞洲傳記</a></li>
+<li><a href="main.html#main783-787" target="main_1">783-787 各國傳記</a></li>
+<li><a href="main.html#main784" target="main_1">784 歐洲傳記</a></li>
+<li><a href="main.html#main785" target="main_1">785 美洲傳記</a></li>
+<li><a href="main.html#main786" target="main_1">786 非洲傳記</a></li>
+<li><a href="main.html#main787" target="main_1">787 大洋洲傳記</a></li>
+<li><a href="main.html#main789" target="main_1">789 譜系</a></li>
+</ul>
+</li>
+<li><a href="main.html#main790" target="main_1">790 文物考古</a>
+<ul>
+<li><a href="main.html#main790" target="main_1">790 文物考古總論</a></li>
+<li><a href="main.html#main791" target="main_1">791 文物彙考</a></li>
+<li><a href="main.html#main792" target="main_1">792 甲骨</a></li>
+<li><a href="main.html#main793" target="main_1">793 金屬器物</a></li>
+<li><a href="main.html#main794" target="main_1">794 石</a></li>
+<li><a href="main.html#main795" target="main_1">795 古書畫；古文書</a></li>
+<li><a href="main.html#main796" target="main_1">796 磚瓦陶及雜器</a></li>
+<li><a href="main.html#main797" target="main_1">797 中國古物志</a></li>
+<li><a href="main.html#main798" target="main_1">798 各國古物志</a></li>
+<li><a href="main.html#main799" target="main_1">799 史前文物考古</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain800" target="main_1">主表 8 語言文學類</a>
+<ul>
+<li><a href="main.html#main800" target="main_1">800 語言學</a>
+<ul>
+<li><a href="main.html#main800" target="main_1">800 語言學總論</a></li>
+<li><a href="main.html#main801" target="main_1">801 比較語言學</a></li>
+<li><a href="main.html#main802" target="main_1">802 漢語</a></li>
+<li><a href="main.html#main803" target="main_1">803 東方語言</a></li>
+<li><a href="main.html#main804" target="main_1">804 印歐語系</a></li>
+<li><a href="main.html#main805" target="main_1">805 日耳曼語族</a></li>
+<li><a href="main.html#main806" target="main_1">806 斯拉夫語族</a></li>
+<li><a href="main.html#main807" target="main_1">807 其他語言</a></li>
+<li><a href="main.html#main808" target="main_1">808 美洲、非洲、大洋洲諸語言</a></li>
+<li><a href="main.html#main809" target="main_1">809 人為語</a></li>
+</ul>
+</li>
+<li><a href="main.html#main810" target="main_1">810 文學</a>
+<ul>
+<li><a href="main.html#main810" target="main_1">810 文學總論</a></li>
+<li><a href="main.html#main811" target="main_1">811 寫作Literary</a></li>
+<li><a href="main.html#main812" target="main_1">812 文學創作及批評</a></li>
+<li><a href="main.html#main813" target="main_1">813 世界文學總集</a></li>
+<li><a href="main.html#main815" target="main_1">815 各種文學</a></li>
+<li><a href="main.html#main819" target="main_1">819 比較文學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main820" target="main_1">820 中國文學</a>
+<ul>
+<li><a href="main.html#main820" target="main_1">820 中國文學總論</a></li>
+<li><a href="main.html#main821" target="main_1">821 中國詩論</a></li>
+<li><a href="main.html#main822" target="main_1">822 辭賦論</a></li>
+<li><a href="main.html#main823" target="main_1">823 詞論；詞話</a></li>
+<li><a href="main.html#main824" target="main_1">824 中國戲曲論</a></li>
+<li><a href="main.html#main825" target="main_1">825 中國散文論</a></li>
+<li><a href="main.html#main826" target="main_1">826 中國雜文學論</a></li>
+<li><a href="main.html#main827" target="main_1">827 中國小說論</a></li>
+<li><a href="main.html#main829" target="main_1">829 中國文學批評史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main830" target="main_1">830 中國文學總集</a>
+<ul>
+<li><a href="main.html#main830" target="main_1">830 中國文學總集</a></li>
+<li><a href="main.html#main831" target="main_1">831 中國詩總集</a></li>
+<li><a href="main.html#main832" target="main_1">832 辭賦總集</a></li>
+<li><a href="main.html#main833" target="main_1">833 詞總集</a></li>
+<li><a href="main.html#main834" target="main_1">834 中國戲曲總集</a></li>
+<li><a href="main.html#main835" target="main_1">835 中國散文總集</a></li>
+<li><a href="main.html#main836" target="main_1">836 中國國文課本</a></li>
+<li><a href="main.html#main837" target="main_1">837 中國語體文總集</a></li>
+<li><a href="main.html#main838" target="main_1">838 婦女作品總集</a></li>
+<li><a href="main.html#main839" target="main_1">839 中國各地藝文總集</a></li>
+</ul>
+</li>
+<li><a href="main.html#main840" target="main_1">840 中國文學別集</a>
+<ul>
+<li><a href="main.html#main840" target="main_1">840 中國文學別集</a></li>
+<li><a href="main.html#main842" target="main_1">842 漢及三國別集</a></li>
+<li><a href="main.html#main843" target="main_1">843 晉及南北朝別集</a></li>
+<li><a href="main.html#main844" target="main_1">844 唐及五代別集</a></li>
+<li><a href="main.html#main845" target="main_1">845 宋及遼金元別集</a></li>
+<li><a href="main.html#main846" target="main_1">846 明代別集</a></li>
+<li><a href="main.html#main847" target="main_1">847 清代別集</a></li>
+<li><a href="main.html#main848" target="main_1">848 現代別集</a></li>
+</ul>
+</li>
+<li><a href="main.html#main850" target="main_1">850 中國各種文學</a>
+<ul>
+<li><a href="main.html#main850" target="main_1">850 各地方文學；各民族文學；各體文學</a></li>
+<li><a href="main.html#main851" target="main_1">851 中國詩</a></li>
+<li><a href="main.html#main852" target="main_1">852 詞</a></li>
+<li><a href="main.html#main853" target="main_1">853 曲</a></li>
+<li><a href="main.html#main854" target="main_1">854 劇本</a></li>
+<li><a href="main.html#main855" target="main_1">855 散文</a></li>
+<li><a href="main.html#main856" target="main_1">856 函牘及雜著</a></li>
+<li><a href="main.html#main857" target="main_1">857 小說</a></li>
+<li><a href="main.html#main858" target="main_1">858 民間文學</a></li>
+<li><a href="main.html#main859" target="main_1">859 中國兒童文學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main860" target="main_1">860 東方文學</a>
+<ul>
+<li><a href="main.html#main860" target="main_1">860 東方文學總論</a></li>
+<li><a href="main.html#main861" target="main_1">861 日本文學</a></li>
+<li><a href="main.html#main862" target="main_1">862 韓國文學</a></li>
+<li><a href="main.html#main863" target="main_1">863 臺灣文學</a></li>
+<li><a href="main.html#main864" target="main_1">864 中東文學</a></li>
+<li><a href="main.html#main865" target="main_1">865 阿拉伯文學</a></li>
+<li><a href="main.html#main866" target="main_1">866 伊朗文學</a></li>
+<li><a href="main.html#main867" target="main_1">867 印度文學</a></li>
+<li><a href="main.html#main868" target="main_1">868 東南亞文學</a></li>
+<li><a href="main.html#main869" target="main_1">869 其他亞洲各國文學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main870" target="main_1">870 西洋文學</a>
+<ul>
+<li><a href="main.html#main870" target="main_1">870 西洋文學總論</a></li>
+<li><a href="main.html#main871" target="main_1">871 古代西洋文學</a></li>
+<li><a href="main.html#main872" target="main_1">872 近代西洋文學</a></li>
+<li><a href="main.html#main873" target="main_1">873 英國文學</a></li>
+<li><a href="main.html#main874" target="main_1">874 美國文學</a></li>
+<li><a href="main.html#main875" target="main_1">875 德國文學</a></li>
+<li><a href="main.html#main876" target="main_1">876 法國文學</a></li>
+<li><a href="main.html#main877" target="main_1">877 義大利文學</a></li>
+<li><a href="main.html#main878" target="main_1">878 西班牙文學</a></li>
+<li><a href="main.html#main879" target="main_1">879 葡萄牙文學</a></li>
+</ul>
+</li>
+<li><a href="main.html#main880" target="main_1">880 其他各國文學</a>
+<ul>
+<li><a href="main.html#main880" target="main_1">880 俄國文學</a></li>
+<li><a href="main.html#main881" target="main_1">881 北歐各國文學</a></li>
+<li><a href="main.html#main882" target="main_1">882 中歐各國文學</a></li>
+<li><a href="main.html#main883" target="main_1">883 東歐各國文學</a></li>
+<li><a href="main.html#main884" target="main_1">884 歐洲其他各國文學</a></li>
+<li><a href="main.html#main885" target="main_1">885 美洲各國文學</a></li>
+<li><a href="main.html#main886" target="main_1">886 非洲各國文學</a></li>
+<li><a href="main.html#main887" target="main_1">887 大洋洲各國文學</a></li>
+<li><a href="main.html#main889" target="main_1">889 西洋小說</a></li>
+</ul>
+</li>
+<li><a href="main.html#main890" target="main_1">890 新聞學</a>
+<ul>
+<li><a href="main.html#main890" target="main_1">890 新聞學總論</a></li>
+<li><a href="main.html#main891" target="main_1">891 新聞政策</a></li>
+<li><a href="main.html#main892" target="main_1">892 組織和管理</a></li>
+<li><a href="main.html#main893" target="main_1">893 新聞編輯及報導</a></li>
+<li><a href="main.html#main894" target="main_1">894 新聞業務</a></li>
+<li><a href="main.html#main895" target="main_1">895 新聞採訪及新聞寫作</a></li>
+<li><a href="main.html#main896" target="main_1">896 通訊社</a></li>
+<li><a href="main.html#main897" target="main_1">897 各種新聞媒體</a></li>
+<li><a href="main.html#main898" target="main_1">898 中國新聞事業</a></li>
+<li><a href="main.html#main899" target="main_1">899 各國新聞事業</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="main.html#admain900" target="main_1">主表 9 藝術類</a>
+<ul>
+<li><a href="main.html#main900" target="main_1">900 藝術類</a>
+<ul>
+<li><a href="main.html#main900" target="main_1">900 藝術總論</a></li>
+<li><a href="main.html#main901" target="main_1">901 藝術理論</a></li>
+<li><a href="main.html#main902" target="main_1">902 藝術圖譜</a></li>
+<li><a href="main.html#main903" target="main_1">903 藝術教育及研究</a></li>
+<li><a href="main.html#main904" target="main_1">904 藝術辭典</a></li>
+<li><a href="main.html#main905" target="main_1">905 藝術期刊</a></li>
+<li><a href="main.html#main906" target="main_1">906 藝術團體</a></li>
+<li><a href="main.html#main907" target="main_1">907 藝術論文集</a></li>
+<li><a href="main.html#main908" target="main_1">908 藝術叢書</a></li>
+<li><a href="main.html#main909" target="main_1">909 藝術史</a></li>
+</ul>
+</li>
+<li><a href="main.html#main910" target="main_1">910 音樂</a>
+<ul>
+<li><a href="main.html#main910" target="main_1">910 音樂總論</a></li>
+<li><a href="main.html#main911" target="main_1">911 音樂理論</a></li>
+<li><a href="main.html#main912" target="main_1">912 合奏及樂團</a></li>
+<li><a href="main.html#main913" target="main_1">913 聲樂</a></li>
+<li><a href="main.html#main914" target="main_1">914 舞蹈音樂</a></li>
+<li><a href="main.html#main915" target="main_1">915 戲劇音樂</a></li>
+<li><a href="main.html#main916" target="main_1">916 絃樂</a></li>
+<li><a href="main.html#main916-919" target="main_1">916-919 各種樂器</a></li>
+<li><a href="main.html#main917" target="main_1">917 鍵盤樂器</a></li>
+<li><a href="main.html#main918" target="main_1">918 管樂</a></li>
+<li><a href="main.html#main919" target="main_1">919 民族音樂</a></li>
+</ul>
+</li>
+<li><a href="main.html#main920" target="main_1">920 建築藝術</a>
+<ul>
+<li><a href="main.html#main920" target="main_1">920 建築藝術總論</a></li>
+<li><a href="main.html#main921" target="main_1">921 建築藝術設計</a></li>
+<li><a href="main.html#main922" target="main_1">922 中國建築</a></li>
+<li><a href="main.html#main923" target="main_1">923 各國建築</a></li>
+<li><a href="main.html#main924" target="main_1">924 宮殿</a></li>
+<li><a href="main.html#main925" target="main_1">925 道路</a></li>
+<li><a href="main.html#main926" target="main_1">926 公共建築</a></li>
+<li><a href="main.html#main927" target="main_1">927 宗教建築</a></li>
+<li><a href="main.html#main928" target="main_1">928 民屋</a></li>
+<li><a href="main.html#main929" target="main_1">929 景觀建築</a></li>
+</ul>
+</li>
+<li><a href="main.html#main930" target="main_1">930 雕塑</a>
+<ul>
+<li><a href="main.html#main930" target="main_1">930 雕塑總論</a></li>
+<li><a href="main.html#main931" target="main_1">931 篆刻；刻印</a></li>
+<li><a href="main.html#main932" target="main_1">932 雕塑材料及技法</a></li>
+<li><a href="main.html#main933" target="main_1">933 木雕</a></li>
+<li><a href="main.html#main934" target="main_1">934 石雕</a></li>
+<li><a href="main.html#main935" target="main_1">935 金屬雕刻</a></li>
+<li><a href="main.html#main936" target="main_1">936 玉雕</a></li>
+<li><a href="main.html#main937" target="main_1">937 版畫</a></li>
+<li><a href="main.html#main938" target="main_1">938 陶瓷雕塑</a></li>
+<li><a href="main.html#main939" target="main_1">939 塑造</a></li>
+</ul>
+</li>
+<li><a href="main.html#main940" target="main_1">940 繪畫</a>
+<ul>
+<li><a href="main.html#main940" target="main_1">940 繪畫總論</a></li>
+<li><a href="main.html#main941" target="main_1">941 中國書畫</a></li>
+<li><a href="main.html#main942" target="main_1">942 書法</a></li>
+<li><a href="main.html#main943" target="main_1">943 法帖</a></li>
+<li><a href="main.html#main944" target="main_1">944 中國畫</a></li>
+<li><a href="main.html#main945" target="main_1">945 中國畫冊</a></li>
+<li><a href="main.html#main946" target="main_1">946 東洋畫</a></li>
+<li><a href="main.html#main947" target="main_1">947 西洋繪畫</a></li>
+<li><a href="main.html#main948" target="main_1">948 各種西洋畫法</a></li>
+<li><a href="main.html#main949" target="main_1">949 西洋畫各派</a></li>
+</ul>
+</li>
+<li><a href="main.html#main950" target="main_1">950 攝影</a>
+<ul>
+<li><a href="main.html#main950" target="main_1">950 攝影總論</a></li>
+<li><a href="main.html#main951" target="main_1">951 攝影器材設備</a></li>
+<li><a href="main.html#main952" target="main_1">952 攝影技術</a></li>
+<li><a href="main.html#main953" target="main_1">953 專題攝影技術</a></li>
+<li><a href="main.html#main954" target="main_1">954 特殊攝影技術</a></li>
+<li><a href="main.html#main955" target="main_1">955 攝影術之應用</a></li>
+<li><a href="main.html#main956" target="main_1">956 電腦藝術</a></li>
+<li><a href="main.html#main957" target="main_1">957 專題攝影集</a></li>
+<li><a href="main.html#main958" target="main_1">958 普通攝影集</a></li>
+<li><a href="main.html#main959" target="main_1">959 攝影業</a></li>
+</ul>
+</li>
+<li><a href="main.html#main960" target="main_1">960 應用美術</a>
+<ul>
+<li><a href="main.html#main960" target="main_1">960 應用美術總論</a></li>
+<li><a href="main.html#main961" target="main_1">961 圖案</a></li>
+<li><a href="main.html#main962" target="main_1">962 裝飾文字</a></li>
+<li><a href="main.html#main963" target="main_1">963 色彩及配色</a></li>
+<li><a href="main.html#main964" target="main_1">964 工業美術</a></li>
+<li><a href="main.html#main966" target="main_1">966 織品服飾工藝美術</a></li>
+<li><a href="main.html#main967" target="main_1">967 室內裝飾</a></li>
+<li><a href="main.html#main968" target="main_1">968 玻璃及金屬工藝美術</a></li>
+<li><a href="main.html#main969" target="main_1">969 民間工藝美術</a></li>
+</ul>
+</li>
+<li><a href="main.html#main970" target="main_1">970 技藝</a>
+<ul>
+<li><a href="main.html#main970" target="main_1">970 技藝總論</a></li>
+<li><a href="main.html#main971" target="main_1">971 花藝；插花</a></li>
+<li><a href="main.html#main972" target="main_1">972 紙藝</a></li>
+<li><a href="main.html#main973" target="main_1">973 香道</a></li>
+<li><a href="main.html#main974" target="main_1">974 茶藝；茶道</a></li>
+<li><a href="main.html#main976" target="main_1">976 舞蹈；跳舞</a></li>
+</ul>
+</li>
+<li><a href="main.html#main980" target="main_1">980 戲劇</a>
+<ul>
+<li><a href="main.html#main980" target="main_1">980 戲劇總論</a></li>
+<li><a href="main.html#main981" target="main_1">981 劇場藝術</a></li>
+<li><a href="main.html#main982" target="main_1">982 中國戲劇</a></li>
+<li><a href="main.html#main983" target="main_1">983 東洋戲劇</a></li>
+<li><a href="main.html#main984" target="main_1">984 西洋戲劇</a></li>
+<li><a href="main.html#main985" target="main_1">985 學校戲劇</a></li>
+<li><a href="main.html#main986" target="main_1">986 偶戲</a></li>
+<li><a href="main.html#main987" target="main_1">987 電影</a></li>
+<li><a href="main.html#main989" target="main_1">989 其他各種戲劇</a></li>
+</ul>
+</li>
+<li><a href="main.html#main990" target="main_1">990 遊藝及休閒活動</a>
+<ul>
+<li><a href="main.html#main990" target="main_1">990 遊藝及休閒活動總論</a></li>
+<li><a href="main.html#main991" target="main_1">991 公共娛樂</a></li>
+<li><a href="main.html#main992" target="main_1">992 旅遊；觀光</a></li>
+<li><a href="main.html#main993" target="main_1">993 戶外活動</a></li>
+<li><a href="main.html#main994" target="main_1">994 水上運動</a></li>
+<li><a href="main.html#main995" target="main_1">995 室內遊戲</a></li>
+<li><a href="main.html#main996" target="main_1">996 兒童遊戲</a></li>
+<li><a href="main.html#main997" target="main_1">997 智力遊戲</a></li>
+<li><a href="main.html#main998" target="main_1">998 博戲</a></li>
+<li><a href="main.html#main999" target="main_1">999 業餘遊玩</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#">附表及附錄</a>
+<ul>
+<li><a href="#">附表</a>
+<ul>
+<li><a href="ex01.html" target="_blank" rel="mid_name">附表01 總類複分表</a></li>
+<li><a href="ex02.html" target="_blank" rel="mid_name">附表02 中國時代表</a></li>
+<li><a href="ex03.html" target="_blank" rel="mid_name">附表03 西洋時代表</a></li>
+<li><a href="ex04.html" target="_blank" rel="mid_name">附表04 日本時代表</a></li>
+<li><a href="ex05.html" target="_blank" rel="mid_name">附表05 韓國時代表</a></li>
+<li><a href="ex06.html" target="_blank" rel="mid_name">附表06 中國省區表</a></li>
+<li><a href="ex07.html" target="_blank" rel="mid_name">附表07 中國縣市表</a></li>
+<li><a href="ex08.html" target="_blank" rel="mid_name">附表08 臺灣縣市表</a></li>
+<li><a href="ex09.html" target="_blank" rel="mid_name">附表09 臺灣鄉鎮表</a></li>
+<li><a href="ex10.html" target="_blank" rel="mid_name">附表10 世界區域及分國表</a></li>
+<li><a href="ex11.html" target="_blank" rel="mid_name">附表11 機關出版品排列表</a></li>
+<li><a href="ex12.html" target="_blank" rel="mid_name">附表12 中國作家時代表</a></li>
+</ul>
+</li>
+<li><a href="#">附錄</a>
+<ul>
+<li><a href="ex2_4.html" target="_blank" rel="mid_name">附錄04 中國年號筆畫檢查表</a></li>
+<li><a href="ex2_5.html" target="_blank" rel="mid_name">附錄05 干支歲陽歲陰表</a></li>
+</ul>
+</li>
+<li><a href="#">圖表</a>
+<ul>
+<li><a href="ex3_1.html" target="_blank" rel="mid_name">圖表01 地質年代表</a></li>
+<li><a href="ex3_2.html" target="_blank" rel="mid_name">圖表02 Hadzi 動物演進系統圖</a></li>
+<li><a href="ex3_3.html" target="_blank" rel="mid_name">圖表03 十六國至五代十國一覽表</a></li>
+<li><a href="ex3_4.html" target="_blank" rel="mid_name">圖表04 臺灣歷任總督一覽表</a></li>
+<li><a href="ex3_5.html" target="_blank" rel="mid_name">圖表05 臺灣省主席及省長一覽表</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#">其他參考資源</a>
+<ul>
+<li><a href="lcstt.html" target="_blank" rel="mid_name">中文主題詞表</a></li>
+<li><a href="Cutter.html" target="_blank" rel="mid_name">克特號</a></li>
+<li><a href="CountryCode.html" target="_blank" rel="mid_name">MARC國碼</a></li>
+<li><a href="LangCode.html" target="_blank" rel="mid_name">MARC語言</a></li>
+<li><a href="ddc22.html" target="_blank" rel="mid_name">DDC22小類含中譯</a></li>
+<li><a href="publisher.html" target="_blank" rel="mid_name">出版社名錄</a></li>
+<li><a href="japanCcode.html" target="_blank" rel="mid_name">日本圖書號碼</a></li>
+</ul>
+</li>
+</ul>
+<div style="margin: 20px auto; width: 960px;"> <iframe name="main_1" allowtransparency="true" class="igm" src="main.html" frameborder="0" height="600" scrolling="yes" width="960"></iframe>
+</div>
+</body>
+</html>
+
